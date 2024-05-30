@@ -1,14 +1,26 @@
 ---
 import Layout from '../layouts/Layout.astro'
 import Card from '../components/Card.astro'
+import { getRankedPosts, getPosts } from '../lib/notion/client'
+
+const [rankedPosts, recentPosts] = await Promise.all([
+  getRankedPosts(),
+  getPosts(5),
+])
 ---
 
-<Layout description="A blog site" path="">
-  <main></main>
+<Layout description="A blog site" path="/">
+  <div slot="main">
+    {
+      recentPosts.map((p) => (
+        <Card
+          title={p.Title}
+          description={p.Excerpt}
+          href={`/posts/${p.Slug}`}
+        />
+      ))
+    }
+  </div>
 </Layout>
 
-<style>
-  main {
-    height: 100%;
-  }
-</style>
+<style></style>

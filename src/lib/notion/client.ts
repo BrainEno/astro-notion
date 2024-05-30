@@ -62,6 +62,7 @@ const client = new Client({
 let postsCache: Post[] | null = null
 let dbCache: Database | null = null
 
+
 const numberOfRetry = 2
 
 export async function getAllPosts(): Promise<Post[]> {
@@ -156,7 +157,6 @@ export async function getRankedPosts(pageSize = 10): Promise<Post[]> {
 
 export async function getPostBySlug(slug: string): Promise<Post | null> {
     const allPosts = await getAllPosts()
-    console.log(slug)
     return allPosts.find((post) => post.Slug === slug) || null
 }
 
@@ -329,7 +329,6 @@ export async function getAllBlocksByBlockId(blockId: string): Promise<Block[]> {
         }
     }
 
-    console.log('allBlocks', allBlocks)
     return allBlocks
 }
 
@@ -490,6 +489,7 @@ export async function getDatabase(): Promise<Database> {
     }
 
     dbCache = database
+    console.log('database in build', database)
     return database
 }
 

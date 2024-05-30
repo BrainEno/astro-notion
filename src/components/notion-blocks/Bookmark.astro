@@ -13,10 +13,10 @@ export interface Props {
 
 const { block, urlMap } = Astro.props
 
-const urlString = (block.Bookmark || block.LinkPreview || block.Embed).Url
+const urlString = (block.Bookmark || block.LinkPreview || block.Embed)!.Url
 
-let url: URL
-let metadata: Record<string, string>
+let url: URL | null = null
+let metadata: Record<string, string> = {}
 try {
   url = new URL(urlString)
 
@@ -28,7 +28,10 @@ try {
     ])
     const html = urlMap[url.toString()]
     if (html) {
-      metadata = await metascraper({ html, url })
+      metadata = (await metascraper({ html, url: url.toString() })) as Record<
+        string,
+        string
+      >
     }
   }
 } catch (err) {

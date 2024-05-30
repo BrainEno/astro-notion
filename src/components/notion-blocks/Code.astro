@@ -22,10 +22,12 @@ export interface Props {
 
 const { block } = Astro.props
 
-const code = block.Code.RichTexts.map(
-  (richText: interfaces.RichText) => richText.Text.Content
-).join('')
-const language = block.Code.Language.toLowerCase()
+const code = block
+  .Code!.RichTexts.map(
+    (richText: interfaces.RichText) => richText.Text!.Content
+  )
+  .join('')
+const language = block.Code!.Language.toLowerCase()
 const grammer =
   Prism.languages[language.toLowerCase()] || Prism.languages.javascript
 ---
@@ -48,7 +50,7 @@ const grammer =
       )
     }
   </div>
-  <Caption richTexts={block.Code.Caption} />
+  <Caption richTexts={block.Code!.Caption} />
 </div>
 
 <script>
@@ -60,14 +62,16 @@ const grammer =
   document.querySelectorAll('button.copy').forEach((button) => {
     button.addEventListener('click', (ev) => {
       navigator.clipboard
-        .writeText(ev.target.getAttribute('data-code'))
+        .writeText((ev.target as HTMLElement).getAttribute('data-code')!)
         .then(() => {
-          const originalText = ev.target.innerText
+          const originalText = (ev.target as HTMLElement).innerText
 
-          ev.target.innerText = ev.target.getAttribute('data-done-text')
+          ;(ev.target as HTMLElement).innerText = (
+            ev.target as HTMLElement
+          ).getAttribute('data-done-text')!
 
           setTimeout(() => {
-            ev.target.innerText = originalText
+            ;(ev.target as HTMLElement).innerText = originalText
           }, 3000)
         })
     })

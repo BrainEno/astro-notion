@@ -11,31 +11,31 @@ export interface Props {
 
 const { block, headings } = Astro.props
 
-const id = buildHeadingId(block.Heading2)
+const id = buildHeadingId(block.Heading2!)
 ---
 
 {
-  block.Heading2.IsToggleable ? (
+  block.Heading2!.IsToggleable ? (
     <details class="toggle">
       <summary>
         <a href={`#${id}`} id={id}>
           <h4>
-            {block.Heading2.RichTexts.map((richText: interfaces.RichText) => (
+            {block.Heading2!.RichTexts.map((richText: interfaces.RichText) => (
               <RichText richText={richText} />
             ))}
           </h4>
         </a>
       </summary>
       <div>
-        {block.Heading2.Children && (
-          <NotionBlocks blocks={block.Heading2.Children} headings={headings} />
+        {block.Heading2!.Children && (
+          <NotionBlocks blocks={block.Heading2!.Children} headings={headings} />
         )}
       </div>
     </details>
   ) : (
     <a href={`#${id}`} id={id}>
       <h4>
-        {block.Heading2.RichTexts.map((richText: interfaces.RichText) => (
+        {block.Heading2!.RichTexts.map((richText: interfaces.RichText) => (
           <RichText richText={richText} />
         ))}
       </h4>

@@ -17,7 +17,6 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.7.0",
-    "@astrojs/netlify": "^5.2.1",
     "@astrojs/react": "^3.4.0",
     "@astrojs/rss": "^4.0.6",
     "@iconify-json/octicon": "^1.1.54",
@@ -36,6 +35,7 @@
     "metascraper-description": "^5.45.7",
     "metascraper-image": "^5.45.7",
     "metascraper-title": "^5.45.7",
+    "nx": "^19.1.1",
     "prismjs": "^1.29.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -46,13 +46,14 @@
     "@nrwl/nx-cloud": "^19.0.0",
     "@types/async-retry": "^1.4.8",
     "@types/js-base64": "^3.3.1",
+    "@types/katex": "^0.16.7",
+    "@types/prismjs": "^1.26.4",
     "@typescript-eslint/eslint-plugin": "^7.11.0",
     "@typescript-eslint/parser": "^7.11.0",
     "@typescript-eslint/typescript-estree": "^7.11.0",
     "cli-progress": "^3.12.0",
     "eslint": "^9.3.0",
-    "eslint-plugin-astro": "^1.2.0",
-    "nx": "^19.1.0"
+    "eslint-plugin-astro": "^1.2.0"
   },
   "nx": {
     "targets": {

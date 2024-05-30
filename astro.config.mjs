@@ -1,5 +1,4 @@
 import { defineConfig } from 'astro/config';
-import netlify from "@astrojs/netlify";
 import icon from 'astro-icon'
 
 import react from "@astrojs/react";
@@ -39,19 +38,6 @@ const getSite = function () {
 export default defineConfig({
   site: getSite(),
   base: BASE_PATH,
-  publicDir: './public',
-  outDir: './dist',
-  vite: {
-    plugins: [{
-      name: 'import.meta.url-transformer',
-      transform: (code, id) => {
-        if (id.endsWith('.astro')) return code.replace(/import.meta.url/g, `"${id}"`);
-      }
-    }],
-    ssr: {
-      external: ['svgo']
-    }
-  },
   integrations: [
     icon(),
     react(),
@@ -61,7 +47,4 @@ export default defineConfig({
     PublicNotionCopier()
   ],
   output: "server",
-  adapter: netlify({
-    edgeMiddleware: true
-  })
 });

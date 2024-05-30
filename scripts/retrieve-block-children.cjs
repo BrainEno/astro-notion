@@ -2,7 +2,7 @@ const fs = require('fs');
 const { setTimeout } = require('timers/promises');
 const { Client } = require('@notionhq/client');
 
-const notion = new Client({ auth: process.env.NOTION_API_SECRET });
+const notion = new Client({ auth: import.meta.env.NOTION_API_SECRET || process.env.NOTION_API_SECRET });
 
 const requestDuration = 300;
 
