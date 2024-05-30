@@ -1,0 +1,69 @@
+---
+import HeaderLink from './HeaderLink.astro'
+import SearchButton from './SearchButton.astro'
+
+interface Props {
+  siteTitle: string
+  customIconURL: string
+}
+
+const links = [
+  { title: 'Home', href: '/' },
+  { title: 'All', href: '/all' },
+  { title: 'Novel', href: '/novel' },
+  { title: 'Poems', href: '/pomes' },
+]
+
+const { customIconURL, siteTitle } = Astro.props
+---
+
+<header class="header">
+  <div class="icon">
+    {customIconURL && <img src={customIconURL} alt="icon" />}
+    <span class="icon-text">{siteTitle}</span>
+  </div>
+  <ul class="header-links">
+    {links.map((link) => <HeaderLink title={link.title} href={link.href} />)}
+  </ul>
+  <div>
+    <SearchButton />
+  </div>
+</header>
+<style>
+  .header {
+    background-color: var(--bg);
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 40px;
+  }
+
+  .header > .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .header > .icon .icon-text {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 8px;
+    font-weight: 600;
+  }
+
+  .header > .icon img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .header > .header-links {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+</style>

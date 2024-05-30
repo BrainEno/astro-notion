@@ -1,0 +1,159 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.1.0",
+  "deps": {
+    "@astrojs/check": "^0.7.0",
+    "@astrojs/netlify": "^5.2.1",
+    "@astrojs/react": "^3.4.0",
+    "@astrojs/rss": "^4.0.6",
+    "@notionhq/client": "^2.2.15",
+    "@supercharge/promise-pool": "^3.2.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "astro": "^4.9.1",
+    "astro-icon": "^1.1.0",
+    "async-retry": "^1.3.3",
+    "axios": "^1.7.2",
+    "exif-be-gone": "^1.4.1",
+    "katex": "^0.16.10",
+    "mermaid": "^10.9.1",
+    "metascraper": "^5.45.8",
+    "metascraper-description": "^5.45.7",
+    "metascraper-image": "^5.45.7",
+    "metascraper-title": "^5.45.7",
+    "prismjs": "^1.29.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sharp": "^0.33.4",
+    "typescript": "^5.4.5",
+    "@nrwl/nx-cloud": "^19.0.0",
+    "@types/async-retry": "^1.4.8",
+    "@types/js-base64": "^3.3.1",
+    "@typescript-eslint/eslint-plugin": "^7.11.0",
+    "@typescript-eslint/parser": "^7.11.0",
+    "@typescript-eslint/typescript-estree": "^7.11.0",
+    "cli-progress": "^3.12.0",
+    "eslint": "^9.3.0",
+    "eslint-plugin-astro": "^1.2.0",
+    "nx": "^19.1.0"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".eslintrc.json",
+        "hash": "9944735225960844030"
+      },
+      {
+        "file": ".nxignore",
+        "hash": "595692451669699426"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "13871338223642081143"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "3936848521911622678"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4591125310708873372"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "1679638439007128934"
+      },
+      {
+        "file": "README.md",
+        "hash": "18271660719621945968"
+      },
+      {
+        "file": "astro-imagetools.config.mjs",
+        "hash": "9210697584784074402"
+      },
+      {
+        "file": "astro.config.mjs",
+        "hash": "17619304631546268285"
+      },
+      {
+        "file": "package.json",
+        "hash": "17666240182819854653"
+      },
+      {
+        "file": "public/favicon.svg",
+        "hash": "9875909904608765743"
+      },
+      {
+        "file": "public/scripts/fslightbox.js",
+        "hash": "18039585792401990536"
+      },
+      {
+        "file": "scripts/blog-contents-cache.cjs",
+        "hash": "10856783053220659294"
+      },
+      {
+        "file": "scripts/retrieve-block-children.cjs",
+        "hash": "11689466975783917523"
+      },
+      {
+        "file": "server-constants.ts",
+        "hash": "11165242315783794196"
+      },
+      {
+        "file": "src/components/Card.astro",
+        "hash": "12263260993253079314"
+      },
+      {
+        "file": "src/components/Header.astro",
+        "hash": "1194355156645321283"
+      },
+      {
+        "file": "src/components/HeaderLink.astro",
+        "hash": "6727097984012766787"
+      },
+      {
+        "file": "src/env.d.ts",
+        "hash": "238868001154430393"
+      },
+      {
+        "file": "src/layouts/Layout.astro",
+        "hash": "6455325454303912946"
+      },
+      {
+        "file": "src/lib/interfaces.ts",
+        "hash": "2317694819266985311"
+      },
+      {
+        "file": "src/lib/notion/client.ts",
+        "hash": "7583222619975154571"
+      },
+      {
+        "file": "src/lib/notion/request-params.ts",
+        "hash": "857997596836470231"
+      },
+      {
+        "file": "src/lib/notion/responses.ts",
+        "hash": "638594330667460383"
+      },
+      {
+        "file": "src/pages/index.astro",
+        "hash": "11561879299937837817"
+      },
+      {
+        "file": "src/styles/global.css",
+        "hash": "17895271158899068553"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "13642602672799185216"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "15820866936398211810"
+      }
+    ]
+  }
+}
