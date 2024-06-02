@@ -2,8 +2,9 @@ const { exec } = require('child_process');
 const { Client } = require('@notionhq/client');
 const cliProgress = require('cli-progress');
 const { PromisePool } = require('@supercharge/promise-pool');
+require('dotenv').config('../.env')
 
-const notion = new Client({ auth: import.meta.env.NOTION_API_SECRET || process.env.NOTION_API_SECRET });
+const notion = new Client({ auth: process.env.NOTION_API_SECRET });
 
 const getAllPages = async () => {
     const params = {

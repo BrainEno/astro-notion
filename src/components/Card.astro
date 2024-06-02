@@ -1,60 +1,135 @@
 ---
+import { P } from '../../dist/_astro/hoisted.DlWIwDeN'
+import { getTagLink } from '../lib/blog-helpers'
+import type { Post, SelectProperty } from '../lib/interfaces'
+import '../styles/tag-color.css'
+
 interface Props {
-  title: string
-  description: string
+  post: Post
+  extClass: string
   href: string
 }
 
-const { href, title, description } = Astro.props
+const { href, post, extClass } = Astro.props
 ---
 
-<li class="link-card">
+<div class={extClass ? `post-card ${extClass}` : 'post-card'}>
   <a href={href}>
+    {
+      post.FeaturedImage?.Url && (
+        <img
+          class="post-card-img"
+          src={post.FeaturedImage.Url}
+          alt={post.Title}
+        />
+      )
+    }
+    <div class="tags">
+      {
+        post.Tags &&
+          post.Tags.length > 0 &&
+          post.Tags.map((tag: SelectProperty) => (
+            <a href={getTagLink(tag.name)} class={`tag ${tag.color}`}>
+              {tag.name}
+            </a>
+          ))
+      }
+    </div>
     <h2>
-      {title}
+      {post.Title}
     </h2>
     <p>
-      {description}
+      {post.Date}
     </p>
   </a>
-</li>
+</div>
+
 <style>
-  .link-card {
-    list-style: none;
-    display: flex;
-    padding: 1px;
-    background-color: #23262d;
-    background-image: none;
-    background-size: 400%;
-    border-radius: 7px;
-    background-position: 100%;
-    transition: background-position 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
-  }
-  .link-card > a {
+  .post-card {
+    height: auto;
     width: 100%;
-    text-decoration: none;
-    line-height: 1.4;
-    padding: calc(1.5rem - 1px);
-    border-radius: 8px;
-    color: white;
-    background-color: #23262d;
-    opacity: 0.8;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
   }
-  h2 {
-    margin: 0;
-    font-size: 1.25rem;
-    transition: color 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+
+  .post-card.f0 {
+    grid-area: 2/3/5/5;
+    height: 650px;
   }
-  p {
-    margin-top: 0.5rem;
-    margin-bottom: 0;
+
+  .post-card.f1 {
+    grid-area: 1/1/2/5;
+    height: 400px;
   }
-  .link-card:is(:hover, :focus-within) {
-    background-position: 0;
-    background-image: var(--accent-gradient);
+
+  .post-card.f2,
+  .post-card.f3,
+  .post-card.f4 {
+    height: 300px;
   }
-  .link-card:is(:hover, :focus-within) h2 {
-    color: rgb(var(--accent-light));
+  .post-card.f4 {
+    grid-area: 3/1/4/3;
+  }
+
+  .post-card.t0 {
+    grid-area: 1/2/3/3;
+    height: auto;
+  }
+
+  .post-card.t1,
+  .post-card.t2,
+  .post-card.t3,
+  .post-card.t4 {
+    height: 180px;
+  }
+  .post-card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .post-card h2 {
+    position: absolute;
+    font-size: 20px;
+    margin-block-start: 0;
+    margin-block-end: 10px;
+    color: var(--bg);
+    z-index: 10;
+    left: 20px;
+    bottom: 20px;
+  }
+
+  .post-card p {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+    left: 20px;
+    bottom: 42px;
+    color: var(--accent1);
+  }
+
+  .post-card .tags {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    width: 50%;
+    height: 30px;
+    top: 20px;
+    left: 20px;
+    z-index: 20px;
+  }
+
+  .tags .tag {
+    display: flex;
+    width: max-content;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    border-radius: var(--radius);
+    color: var(--bg);
   }
 </style>

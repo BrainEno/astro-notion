@@ -489,7 +489,7 @@ export async function getDatabase(): Promise<Database> {
     }
 
     dbCache = database
-    console.log('database in build', database)
+
     return database
 }
 

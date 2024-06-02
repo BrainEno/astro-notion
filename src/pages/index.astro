@@ -4,23 +4,28 @@ import Card from '../components/Card.astro'
 import { getRankedPosts, getPosts } from '../lib/notion/client'
 
 const [rankedPosts, recentPosts] = await Promise.all([
-  getRankedPosts(),
+  getRankedPosts(5),
   getPosts(5),
 ])
 ---
 
 <Layout description="A blog site" path="/">
   <div slot="main">
-    {
-      recentPosts.map((p) => (
-        <Card
-          title={p.Title}
-          description={p.Excerpt}
-          href={`/posts/${p.Slug}`}
-        />
-      ))
-    }
+    <div class="blog-container">
+      {
+        rankedPosts.map((p, i) => (
+          <Card post={p} href={`/posts/${p.Slug}`} extClass={`f${i}`} />
+        ))
+      }
+    </div>
   </div>
 </Layout>
 
-<style></style>
+<style>
+  .blog-container {
+    width: 100%;
+    width: 1300px;
+    display: grid;
+    gap: 30px;
+  }
+</style>

@@ -1,13 +1,9 @@
 ---
 import * as interfaces from '../../lib/interfaces.ts'
 import {
-  getPosts,
   getAllPosts,
-  getRankedPosts,
   getPostBySlug,
-  getPostsByTag,
   getBlock,
-  getAllTags,
   getAllBlocksByBlockId,
   downloadFile,
 } from '../../lib/notion/client.ts'
@@ -95,10 +91,15 @@ if (post.FeaturedImage && post.FeaturedImage.Url) {
   ogImage={ogImage}
 >
   <div slot="main" class={styles.main}>
+    {
+      post.FeaturedImage?.Url && (
+        <img class="cover" src={post.FeaturedImage.Url} />
+      )
+    }
     <div class={styles.post}>
+      <PostTitle post={post} enableLink={false} />
       <PostDate post={post} />
       <PostTags post={post} />
-      <PostTitle post={post} enableLink={false} />
       <PostBody blocks={blocks} />
       <footer>
         <PostRelativeLink prevPost={prevPost} nextPost={nextPost} />
@@ -106,3 +107,12 @@ if (post.FeaturedImage && post.FeaturedImage.Url) {
     </div>
   </div>
 </Layout>
+
+<style>
+  .cover {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+</style>

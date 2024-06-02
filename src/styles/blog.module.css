@@ -1,26 +1,21 @@
-.main{
-  width: 60vw;
-}
-
-.main header {
-  padding: 0 0 20px;
-}
-.main footer {
-  border-top: 1px dashed #888;
-  margin: 0 auto;
-  padding: 40px 0 0;
-}
-@media (max-width: 640px) {
-  .main footer {
-    margin: 0 auto 40px;
-  }
+.main {
+  width: 60%;
 }
 
 .post {
-  margin: 0 auto 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.post footer {
-  margin-top: 0.5rem;
-  padding: 0;
-  border: 0;
+
+.post > div {
+  margin-top: 10px;
+}
+
+.post .post-tags {
+  align-self: flex-start;
+}
+
+.main footer {
+  width: 100%;
 }

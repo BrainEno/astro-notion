@@ -3,10 +3,6 @@ import icon from 'astro-icon'
 
 import react from "@astrojs/react";
 import { CUSTOM_DOMAIN, BASE_PATH } from './src/server-constants';
-import CoverImageDownloader from './src/integrations/cover-image-downloader'
-import FeaturedImageDownloader from './src/integrations/cover-image-downloader'
-import PublicNotionCopier from './src/integrations/public-notion-copier'
-import CustomIconDownloader from './src/integrations/custom-icon-downloader';
 
 const getSite = function () {
   if (CUSTOM_DOMAIN) {
@@ -41,10 +37,5 @@ export default defineConfig({
   integrations: [
     icon(),
     react(),
-    CoverImageDownloader(),
-    CustomIconDownloader(),
-    FeaturedImageDownloader(),
-    PublicNotionCopier()
   ],
-  output: "server",
 });

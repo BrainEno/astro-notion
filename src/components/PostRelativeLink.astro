@@ -14,34 +14,37 @@ const { prevPost, nextPost } = Astro.props
 <div class="post-relative-link">
   <div>
     {
-      nextPost && (
-        <a href={getPostLink(nextPost.Slug)} class="colored">
-          <div>◀︎ Next</div>
-          <div>{nextPost.Title}</div>
-          <PostTags post={nextPost} enableLink={false} />
+      prevPost && (
+        <a href={getPostLink(prevPost.Slug)} class="colored">
+          <div>Previous</div>
+          <div>{prevPost.Title}</div>
         </a>
       )
     }
+  </div>
+  <div>
+    <a href={getNavLink('/')} class="text">↑Back</a>
   </div>
   <div>
     {
-      prevPost && (
-        <a href={getPostLink(prevPost.Slug)} class="colored">
-          <div>▶︎ Previous</div>
-          <div>{prevPost.Title}</div>
-          <PostTags post={prevPost} enableLink={false} />
+      nextPost && (
+        <a href={getPostLink(nextPost.Slug)} class="colored">
+          <div>Next</div>
+          <div>{nextPost.Title}</div>
         </a>
       )
     }
-  </div>
-  <div>
-    <a href={getNavLink('/')} class="text">↑Top</a>
   </div>
 </div>
 
 <style>
   div.post-relative-link {
     margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
   }
   div.post-relative-link > div {
     display: block;
@@ -68,14 +71,14 @@ const { prevPost, nextPost } = Astro.props
     background: rgba(227, 226, 224, 0.5);
   }
   div.post-relative-link > div > a.colored > div:first-child {
-    width: auto;
-    text-align: left;
+    width: 100px;
+    text-align: center;
     font-size: 0.85rem;
   }
   div.post-relative-link > div > a.colored > div:nth-child(2) {
-    width: auto;
+    width: 100px;
     padding: 0.2rem 0 0.4rem;
-    text-align: left;
+    text-align: center;
     font-size: 1rem;
     font-weight: bold;
   }

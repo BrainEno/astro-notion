@@ -72,15 +72,6 @@
         "hash": "sha512-S6Z3K2hOB7MfjeDoHsotnP/q2UsnEDB8NlNAaCjMDsGBZfTUbWxyLW3CaphEWw08f6KLZi2ibK9yC3BaMhh2NQ=="
       }
     },
-    "npm:@astrojs/netlify@5.2.1": {
-      "type": "npm",
-      "name": "npm:@astrojs/netlify@5.2.1",
-      "data": {
-        "version": "5.2.1",
-        "packageName": "@astrojs/netlify",
-        "hash": "sha512-R2aXCwNblh7VwC8lXxOStDebGSI6cpOk2s39sT5Oi8XED8NkNfoL7ERahP962jfJE8O4TU1h1hhfY7ZUNXijbA=="
-      }
-    },
     "npm:@astrojs/prism": {
       "type": "npm",
       "name": "npm:@astrojs/prism",
@@ -115,15 +106,6 @@
         "version": "3.1.0",
         "packageName": "@astrojs/telemetry",
         "hash": "sha512-/ca/+D8MIKEC8/A9cSaPUqQNZm+Es/ZinRv0ZAzvu2ios7POQSsVD+VOj7/hypWNsNM3T7RpfgNq7H2TU1KEHA=="
-      }
-    },
-    "npm:@astrojs/underscore-redirects@0.3.3": {
-      "type": "npm",
-      "name": "npm:@astrojs/underscore-redirects@0.3.3",
-      "data": {
-        "version": "0.3.3",
-        "packageName": "@astrojs/underscore-redirects",
-        "hash": "sha512-qDAKhFO4M1KzP7mxoJfiehf8oyf3EB158MxAa6z10NeD2pR3o4K3LlOQI8CfJgXE+BDBQcnaLvVCg/Mz/Gkg4Q=="
       }
     },
     "npm:@babel/code-frame": {
@@ -450,15 +432,6 @@
         "hash": "sha512-bV21/9LQmcQeCPEg3BDFtvwL6cwiTMksYNWQQ4KOxCZikEGalWtenoZ0wCiukJINlGCIi2KXx01g4FoH/LxpzQ=="
       }
     },
-    "npm:@esbuild/aix-ppc64@0.19.12": {
-      "type": "npm",
-      "name": "npm:@esbuild/aix-ppc64@0.19.12",
-      "data": {
-        "version": "0.19.12",
-        "packageName": "@esbuild/aix-ppc64",
-        "hash": "sha512-bmoCYyWdEL3wDQIVbcyzRyeKLgk2WtWLTWz1ZIAZF/EGbNOwSA6ew3PftJ1PqMiOOGu0OyFMzG53L0zqIpPeNA=="
-      }
-    },
     "npm:@esbuild/aix-ppc64@0.20.2": {
       "type": "npm",
       "name": "npm:@esbuild/aix-ppc64@0.20.2",
@@ -475,15 +448,6 @@
         "version": "0.21.4",
         "packageName": "@esbuild/aix-ppc64",
         "hash": "sha512-Zrm+B33R4LWPLjDEVnEqt2+SLTATlru1q/xYKVn8oVTbiRBGmK2VIMoIYGJDGyftnGaC788IuzGFAlb7IQ0Y8A=="
-      }
-    },
-    "npm:@esbuild/android-arm64@0.19.12": {
-      "type": "npm",
-      "name": "npm:@esbuild/android-arm64@0.19.12",
-      "data": {
-        "version": "0.19.12",
-        "packageName": "@esbuild/android-arm64",
-        "hash": "sha512-P0UVNGIienjZv3f5zq0DP3Nt2IE/3plFzuaS96vihvD0Hd6H/q4WXUGpCxD/E8YrSXfNyRPbpTq+T8ZQioSuPA=="
       }
     },
     "npm:@esbuild/android-arm64@0.20.2": {
@@ -504,15 +468,6 @@
         "hash": "sha512-fYFnz+ObClJ3dNiITySBUx+oNalYUT18/AryMxfovLkYWbutXsct3Wz2ZWAcGGppp+RVVX5FiXeLYGi97umisA=="
       }
     },
-    "npm:@esbuild/android-arm@0.19.12": {
-      "type": "npm",
-      "name": "npm:@esbuild/android-arm@0.19.12",
-      "data": {
-        "version": "0.19.12",
-        "packageName": "@esbuild/android-arm",
-        "hash": "sha512-qg/Lj1mu3CdQlDEEiWrlC4eaPZ1KztwGJ9B6J+/6G+/4ewxJg7gqj8eVYWvao1bXrqGiW2rsBZFSX3q2lcW05w=="
-      }
-    },
     "npm:@esbuild/android-arm@0.20.2": {
       "type": "npm",
       "name": "npm:@esbuild/android-arm@0.20.2",
@@ -529,15 +484,6 @@
         "version": "0.21.4",
         "packageName": "@esbuild/android-arm",
         "hash": "sha512-E7H/yTd8kGQfY4z9t3nRPk/hrhaCajfA3YSQSBrst8B+3uTcgsi8N+ZWYCaeIDsiVs6m65JPCaQN/DxBRclF3A=="
-      }
-    },
-    "npm:@esbuild/android-x64@0.19.12": {
-      "type": "npm",
-      "name": "npm:@esbuild/android-x64@0.19.12",
-      "data": {
-        "version": "0.19.12",
-        "packageName": "@esbuild/android-x64",
-        "hash": "sha512-3k7ZoUW6Q6YqhdhIaq/WZ7HwBpnFBlW905Fa4s4qWJyiNOgT1dOqDiVAQFwBH7gBRZr17gLrlFCRzF6jFh7Kew=="
       }
     },
     "npm:@esbuild/android-x64@0.20.2": {
@@ -558,15 +504,6 @@
         "hash": "sha512-mDqmlge3hFbEPbCWxp4fM6hqq7aZfLEHZAKGP9viq9wMUBVQx202aDIfc3l+d2cKhUJM741VrCXEzRFhPDKH3Q=="
       }
     },
-    "npm:@esbuild/darwin-arm64@0.19.12": {
-      "type": "npm",
-      "name": "npm:@esbuild/darwin-arm64@0.19.12",
-      "data": {
-        "version": "0.19.12",
-        "packageName": "@esbuild/darwin-arm64",
-        "hash": "sha512-B6IeSgZgtEzGC42jsI+YYu9Z3HKRxp8ZT3cqhvliEHovq8HSX2YX8lNocDn79gCKJXOSaEot9MVYky7AKjCs8g=="
-      }
-    },
     "npm:@esbuild/darwin-arm64@0.20.2": {
       "type": "npm",
       "name": "npm:@esbuild/darwin-arm64@0.20.2",
@@ -583,15 +520,6 @@
         "version": "0.21.4",
         "packageName": "@esbuild/darwin-arm64",
         "hash": "sha512-72eaIrDZDSiWqpmCzVaBD58c8ea8cw/U0fq/PPOTqE3c53D0xVMRt2ooIABZ6/wj99Y+h4ksT/+I+srCDLU9TA=="
-      }
-    },
-    "npm:@esbuild/darwin-x64@0.19.12": {
-      "type": "npm",
-      "name": "npm:@esbuild/darwin-x64@0.19.12",
-      "data": {
-        "version": "0.19.12",
-        "packageName": "@esbuild/darwin-x64",
-        "hash": "sha512-hKoVkKzFiToTgn+41qGhsUJXFlIjxI/jSYeZf3ugemDYZldIXIxhvwN6erJGlX4t5h417iFuheZ7l+YVn05N3A=="
       }
     },
     "npm:@esbuild/darwin-x64@0.20.2": {
@@ -612,15 +540,6 @@
         "hash": "sha512-uBsuwRMehGmw1JC7Vecu/upOjTsMhgahmDkWhGLWxIgUn2x/Y4tIwUZngsmVb6XyPSTXJYS4YiASKPcm9Zitag=="
       }
     },
-    "npm:@esbuild/freebsd-arm64@0.19.12": {
-      "type": "npm",
-      "name": "npm:@esbuild/freebsd-arm64@0.19.12",
-      "data": {
-        "version": "0.19.12",
-        "packageName": "@esbuild/freebsd-arm64",
-        "hash": "sha512-4aRvFIXmwAcDBw9AueDQ2YnGmz5L6obe5kmPT8Vd+/+x/JMVKCgdcRwH6APrbpNXsPz+K653Qg8HB/oXvXVukA=="
-      }
-    },
     "npm:@esbuild/freebsd-arm64@0.20.2": {
       "type": "npm",
       "name": "npm:@esbuild/freebsd-arm64@0.20.2",
@@ -637,15 +556,6 @@
         "version": "0.21.4",
         "packageName": "@esbuild/freebsd-arm64",
         "hash": "sha512-8JfuSC6YMSAEIZIWNL3GtdUT5NhUA/CMUCpZdDRolUXNAXEE/Vbpe6qlGLpfThtY5NwXq8Hi4nJy4YfPh+TwAg=="
-      }
-    },
-    "npm:@esbuild/freebsd-x64@0.19.12": {
-      "type": "npm",
-      "name": "npm:@esbuild/freebsd-x64@0.19.12",
-      "data": {
-        "version": "0.19.12",
-        "packageName": "@esbuild/freebsd-x64",
-        "hash": "sha512-EYoXZ4d8xtBoVN7CEwWY2IN4ho76xjYXqSXMNccFSx2lgqOG/1TBPW0yPx1bJZk94qu3tX0fycJeeQsKovA8gg=="
       }
     },
     "npm:@esbuild/freebsd-x64@0.20.2": {
@@ -666,15 +576,6 @@
         "hash": "sha512-8d9y9eQhxv4ef7JmXny7591P/PYsDFc4+STaxC1GBv0tMyCdyWfXu2jBuqRsyhY8uL2HU8uPyscgE2KxCY9imQ=="
       }
     },
-    "npm:@esbuild/linux-arm64@0.19.12": {
-      "type": "npm",
-      "name": "npm:@esbuild/linux-arm64@0.19.12",
-      "data": {
-        "version": "0.19.12",
-        "packageName": "@esbuild/linux-arm64",
-        "hash": "sha512-EoTjyYyLuVPfdPLsGVVVC8a0p1BFFvtpQDB/YLEhaXyf/5bczaGeN15QkR+O4S5LeJ92Tqotve7i1jn35qwvdA=="
-      }
-    },
     "npm:@esbuild/linux-arm64@0.20.2": {
       "type": "npm",
       "name": "npm:@esbuild/linux-arm64@0.20.2",
@@ -691,15 +592,6 @@
         "version": "0.21.4",
         "packageName": "@esbuild/linux-arm64",
         "hash": "sha512-/GLD2orjNU50v9PcxNpYZi+y8dJ7e7/LhQukN3S4jNDXCKkyyiyAz9zDw3siZ7Eh1tRcnCHAo/WcqKMzmi4eMQ=="
-      }
-    },
-    "npm:@esbuild/linux-arm@0.19.12": {
-      "type": "npm",
-      "name": "npm:@esbuild/linux-arm@0.19.12",
-      "data": {
-        "version": "0.19.12",
-        "packageName": "@esbuild/linux-arm",
-        "hash": "sha512-J5jPms//KhSNv+LO1S1TX1UWp1ucM6N6XuL6ITdKWElCu8wXP72l9MM0zDTzzeikVyqFE6U8YAV9/tFyj0ti+w=="
       }
     },
     "npm:@esbuild/linux-arm@0.20.2": {
@@ -720,15 +612,6 @@
         "hash": "sha512-2rqFFefpYmpMs+FWjkzSgXg5vViocqpq5a1PSRgT0AvSgxoXmGF17qfGAzKedg6wAwyM7UltrKVo9kxaJLMF/g=="
       }
     },
-    "npm:@esbuild/linux-ia32@0.19.12": {
-      "type": "npm",
-      "name": "npm:@esbuild/linux-ia32@0.19.12",
-      "data": {
-        "version": "0.19.12",
-        "packageName": "@esbuild/linux-ia32",
-        "hash": "sha512-Thsa42rrP1+UIGaWz47uydHSBOgTUnwBwNq59khgIwktK6x60Hivfbux9iNR0eHCHzOLjLMLfUMLCypBkZXMHA=="
-      }
-    },
     "npm:@esbuild/linux-ia32@0.20.2": {
       "type": "npm",
       "name": "npm:@esbuild/linux-ia32@0.20.2",
@@ -745,15 +628,6 @@
         "version": "0.21.4",
         "packageName": "@esbuild/linux-ia32",
         "hash": "sha512-pNftBl7m/tFG3t2m/tSjuYeWIffzwAZT9m08+9DPLizxVOsUl8DdFzn9HvJrTQwe3wvJnwTdl92AonY36w/25g=="
-      }
-    },
-    "npm:@esbuild/linux-loong64@0.19.12": {
-      "type": "npm",
-      "name": "npm:@esbuild/linux-loong64@0.19.12",
-      "data": {
-        "version": "0.19.12",
-        "packageName": "@esbuild/linux-loong64",
-        "hash": "sha512-LiXdXA0s3IqRRjm6rV6XaWATScKAXjI4R4LoDlvO7+yQqFdlr1Bax62sRwkVvRIrwXxvtYEHHI4dm50jAXkuAA=="
       }
     },
     "npm:@esbuild/linux-loong64@0.20.2": {
@@ -774,15 +648,6 @@
         "hash": "sha512-cSD2gzCK5LuVX+hszzXQzlWya6c7hilO71L9h4KHwqI4qeqZ57bAtkgcC2YioXjsbfAv4lPn3qe3b00Zt+jIfQ=="
       }
     },
-    "npm:@esbuild/linux-mips64el@0.19.12": {
-      "type": "npm",
-      "name": "npm:@esbuild/linux-mips64el@0.19.12",
-      "data": {
-        "version": "0.19.12",
-        "packageName": "@esbuild/linux-mips64el",
-        "hash": "sha512-fEnAuj5VGTanfJ07ff0gOA6IPsvrVHLVb6Lyd1g2/ed67oU1eFzL0r9WL7ZzscD+/N6i3dWumGE1Un4f7Amf+w=="
-      }
-    },
     "npm:@esbuild/linux-mips64el@0.20.2": {
       "type": "npm",
       "name": "npm:@esbuild/linux-mips64el@0.20.2",
@@ -799,15 +664,6 @@
         "version": "0.21.4",
         "packageName": "@esbuild/linux-mips64el",
         "hash": "sha512-qtzAd3BJh7UdbiXCrg6npWLYU0YpufsV9XlufKhMhYMJGJCdfX/G6+PNd0+v877X1JG5VmjBLUiFB0o8EUSicA=="
-      }
-    },
-    "npm:@esbuild/linux-ppc64@0.19.12": {
-      "type": "npm",
-      "name": "npm:@esbuild/linux-ppc64@0.19.12",
-      "data": {
-        "version": "0.19.12",
-        "packageName": "@esbuild/linux-ppc64",
-        "hash": "sha512-nYJA2/QPimDQOh1rKWedNOe3Gfc8PabU7HT3iXWtNUbRzXS9+vgB0Fjaqr//XNbd82mCxHzik2qotuI89cfixg=="
       }
     },
     "npm:@esbuild/linux-ppc64@0.20.2": {
@@ -828,15 +684,6 @@
         "hash": "sha512-yB8AYzOTaL0D5+2a4xEy7OVvbcypvDR05MsB/VVPVA7nL4hc5w5Dyd/ddnayStDgJE59fAgNEOdLhBxjfx5+dg=="
       }
     },
-    "npm:@esbuild/linux-riscv64@0.19.12": {
-      "type": "npm",
-      "name": "npm:@esbuild/linux-riscv64@0.19.12",
-      "data": {
-        "version": "0.19.12",
-        "packageName": "@esbuild/linux-riscv64",
-        "hash": "sha512-2MueBrlPQCw5dVJJpQdUYgeqIzDQgw3QtiAHUC4RBz9FXPrskyyU3VI1hw7C0BSKB9OduwSJ79FTCqtGMWqJHg=="
-      }
-    },
     "npm:@esbuild/linux-riscv64@0.20.2": {
       "type": "npm",
       "name": "npm:@esbuild/linux-riscv64@0.20.2",
@@ -853,15 +700,6 @@
         "version": "0.21.4",
         "packageName": "@esbuild/linux-riscv64",
         "hash": "sha512-Y5AgOuVzPjQdgU59ramLoqSSiXddu7F3F+LI5hYy/d1UHN7K5oLzYBDZe23QmQJ9PIVUXwOdKJ/jZahPdxzm9w=="
-      }
-    },
-    "npm:@esbuild/linux-s390x@0.19.12": {
-      "type": "npm",
-      "name": "npm:@esbuild/linux-s390x@0.19.12",
-      "data": {
-        "version": "0.19.12",
-        "packageName": "@esbuild/linux-s390x",
-        "hash": "sha512-+Pil1Nv3Umes4m3AZKqA2anfhJiVmNCYkPchwFJNEJN5QxmTs1uzyy4TvmDrCRNT2ApwSari7ZIgrPeUx4UZDg=="
       }
     },
     "npm:@esbuild/linux-s390x@0.20.2": {
@@ -882,15 +720,6 @@
         "hash": "sha512-Iqc/l/FFwtt8FoTK9riYv9zQNms7B8u+vAI/rxKuN10HgQIXaPzKZc479lZ0x6+vKVQbu55GdpYpeNWzjOhgbA=="
       }
     },
-    "npm:@esbuild/linux-x64@0.19.12": {
-      "type": "npm",
-      "name": "npm:@esbuild/linux-x64@0.19.12",
-      "data": {
-        "version": "0.19.12",
-        "packageName": "@esbuild/linux-x64",
-        "hash": "sha512-B71g1QpxfwBvNrfyJdVDexenDIt1CiDN1TIXLbhOw0KhJzE78KIFGX6OJ9MrtC0oOqMWf+0xop4qEU8JrJTwCg=="
-      }
-    },
     "npm:@esbuild/linux-x64@0.20.2": {
       "type": "npm",
       "name": "npm:@esbuild/linux-x64@0.20.2",
@@ -907,15 +736,6 @@
         "version": "0.21.4",
         "packageName": "@esbuild/linux-x64",
         "hash": "sha512-Td9jv782UMAFsuLZINfUpoF5mZIbAj+jv1YVtE58rFtfvoKRiKSkRGQfHTgKamLVT/fO7203bHa3wU122V/Bdg=="
-      }
-    },
-    "npm:@esbuild/netbsd-x64@0.19.12": {
-      "type": "npm",
-      "name": "npm:@esbuild/netbsd-x64@0.19.12",
-      "data": {
-        "version": "0.19.12",
-        "packageName": "@esbuild/netbsd-x64",
-        "hash": "sha512-3ltjQ7n1owJgFbuC61Oj++XhtzmymoCihNFgT84UAmJnxJfm4sYCiSLTXZtE00VWYpPMYc+ZQmB6xbSdVh0JWA=="
       }
     },
     "npm:@esbuild/netbsd-x64@0.20.2": {
@@ -936,15 +756,6 @@
         "hash": "sha512-Awn38oSXxsPMQxaV0Ipb7W/gxZtk5Tx3+W+rAPdZkyEhQ6968r9NvtkjhnhbEgWXYbgV+JEONJ6PcdBS+nlcpA=="
       }
     },
-    "npm:@esbuild/openbsd-x64@0.19.12": {
-      "type": "npm",
-      "name": "npm:@esbuild/openbsd-x64@0.19.12",
-      "data": {
-        "version": "0.19.12",
-        "packageName": "@esbuild/openbsd-x64",
-        "hash": "sha512-RbrfTB9SWsr0kWmb9srfF+L933uMDdu9BIzdA7os2t0TXhCRjrQyCeOt6wVxr79CKD4c+p+YhCj31HBkYcXebw=="
-      }
-    },
     "npm:@esbuild/openbsd-x64@0.20.2": {
       "type": "npm",
       "name": "npm:@esbuild/openbsd-x64@0.20.2",
@@ -961,15 +772,6 @@
         "version": "0.21.4",
         "packageName": "@esbuild/openbsd-x64",
         "hash": "sha512-IsUmQeCY0aU374R82fxIPu6vkOybWIMc3hVGZ3ChRwL9hA1TwY+tS0lgFWV5+F1+1ssuvvXt3HFqe8roCip8Hg=="
-      }
-    },
-    "npm:@esbuild/sunos-x64@0.19.12": {
-      "type": "npm",
-      "name": "npm:@esbuild/sunos-x64@0.19.12",
-      "data": {
-        "version": "0.19.12",
-        "packageName": "@esbuild/sunos-x64",
-        "hash": "sha512-HKjJwRrW8uWtCQnQOz9qcU3mUZhTUQvi56Q8DPTLLB+DawoiQdjsYq+j+D3s9I8VFtDr+F9CjgXKKC4ss89IeA=="
       }
     },
     "npm:@esbuild/sunos-x64@0.20.2": {
@@ -990,15 +792,6 @@
         "hash": "sha512-hsKhgZ4teLUaDA6FG/QIu2q0rI6I36tZVfM4DBZv3BG0mkMIdEnMbhc4xwLvLJSS22uWmaVkFkqWgIS0gPIm+A=="
       }
     },
-    "npm:@esbuild/win32-arm64@0.19.12": {
-      "type": "npm",
-      "name": "npm:@esbuild/win32-arm64@0.19.12",
-      "data": {
-        "version": "0.19.12",
-        "packageName": "@esbuild/win32-arm64",
-        "hash": "sha512-URgtR1dJnmGvX864pn1B2YUYNzjmXkuJOIqG2HdU62MVS4EHpU2946OZoTMnRUHklGtJdJZ33QfzdjGACXhn1A=="
-      }
-    },
     "npm:@esbuild/win32-arm64@0.20.2": {
       "type": "npm",
       "name": "npm:@esbuild/win32-arm64@0.20.2",
@@ -1017,15 +810,6 @@
         "hash": "sha512-UUfMgMoXPoA/bvGUNfUBFLCh0gt9dxZYIx9W4rfJr7+hKe5jxxHmfOK8YSH4qsHLLN4Ck8JZ+v7Q5fIm1huErg=="
       }
     },
-    "npm:@esbuild/win32-ia32@0.19.12": {
-      "type": "npm",
-      "name": "npm:@esbuild/win32-ia32@0.19.12",
-      "data": {
-        "version": "0.19.12",
-        "packageName": "@esbuild/win32-ia32",
-        "hash": "sha512-+ZOE6pUkMOJfmxmBZElNOx72NKpIa/HFOMGzu8fqzQJ5kgf6aTGrcJaFsNiVMH4JKpMipyK+7k0n2UXN7a8YKQ=="
-      }
-    },
     "npm:@esbuild/win32-ia32@0.20.2": {
       "type": "npm",
       "name": "npm:@esbuild/win32-ia32@0.20.2",
@@ -1042,15 +826,6 @@
         "version": "0.21.4",
         "packageName": "@esbuild/win32-ia32",
         "hash": "sha512-yIxbspZb5kGCAHWm8dexALQ9en1IYDfErzjSEq1KzXFniHv019VT3mNtTK7t8qdy4TwT6QYHI9sEZabONHg+aw=="
-      }
-    },
-    "npm:@esbuild/win32-x64@0.19.12": {
-      "type": "npm",
-      "name": "npm:@esbuild/win32-x64@0.19.12",
-      "data": {
-        "version": "0.19.12",
-        "packageName": "@esbuild/win32-x64",
-        "hash": "sha512-T1QyPSDCyMXaO3pzBkF96E8xMkiRYbUEZADd29SyPGabqxMViNoii+NcK7eWJAEoU6RZyEm5lVSIjTmcdoB9HA=="
       }
     },
     "npm:@esbuild/win32-x64@0.20.2": {
@@ -1098,18 +873,18 @@
         "hash": "sha512-4Bfj15dVJdoy3RfZmmo86RK1Fwzn6SstsvK9JS+BaVKqC6QQQQyXekNaC+g+LKNgkQ+2VhGAzm6hO40AhMR3zQ=="
       }
     },
-    "npm:@eslint/js": {
+    "npm:@eslint/js@9.3.0": {
       "type": "npm",
-      "name": "npm:@eslint/js",
+      "name": "npm:@eslint/js@9.3.0",
       "data": {
         "version": "9.3.0",
         "packageName": "@eslint/js",
         "hash": "sha512-niBqk8iwv96+yuTwjM6bWg8ovzAPF9qkICsGtcoa5/dmqcEMfdwNAX7+/OHcJHc7wj7XqPxH98oAHytFYlw6Sw=="
       }
     },
-    "npm:@humanwhocodes/config-array": {
+    "npm:@humanwhocodes/config-array@0.13.0": {
       "type": "npm",
-      "name": "npm:@humanwhocodes/config-array",
+      "name": "npm:@humanwhocodes/config-array@0.13.0",
       "data": {
         "version": "0.13.0",
         "packageName": "@humanwhocodes/config-array",
@@ -1125,9 +900,9 @@
         "hash": "sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA=="
       }
     },
-    "npm:@humanwhocodes/object-schema": {
+    "npm:@humanwhocodes/object-schema@2.0.3": {
       "type": "npm",
-      "name": "npm:@humanwhocodes/object-schema",
+      "name": "npm:@humanwhocodes/object-schema@2.0.3",
       "data": {
         "version": "2.0.3",
         "packageName": "@humanwhocodes/object-schema",
@@ -1422,33 +1197,6 @@
         "hash": "sha512-xwmv3SSRAI6DVvB3fsa2ERCo6jqHMYH/+lITY16+xJdwcd27h70/OM8d0dY/KNFC+Zf+nTcJbVAythVWSsDrHg=="
       }
     },
-    "npm:@netlify/functions@2.7.0": {
-      "type": "npm",
-      "name": "npm:@netlify/functions@2.7.0",
-      "data": {
-        "version": "2.7.0",
-        "packageName": "@netlify/functions",
-        "hash": "sha512-4pXC/fuj3eGQ86wbgPiM4zY8+AsNrdz6vcv6FEdUJnZW+LqF8IWjQcY3S0d1hLeLKODYOqq4CkrzGyCpce63Nw=="
-      }
-    },
-    "npm:@netlify/node-cookies@0.1.0": {
-      "type": "npm",
-      "name": "npm:@netlify/node-cookies@0.1.0",
-      "data": {
-        "version": "0.1.0",
-        "packageName": "@netlify/node-cookies",
-        "hash": "sha512-OAs1xG+FfLX0LoRASpqzVntVV/RpYkgpI0VrUnw2u0Q1qiZUzcPffxRK8HF3gc4GjuhG5ahOEMJ9bswBiZPq0g=="
-      }
-    },
-    "npm:@netlify/serverless-functions-api@1.18.1": {
-      "type": "npm",
-      "name": "npm:@netlify/serverless-functions-api@1.18.1",
-      "data": {
-        "version": "1.18.1",
-        "packageName": "@netlify/serverless-functions-api",
-        "hash": "sha512-DrSvivchuwsuQW03zbVPT3nxCQa5tn7m4aoPOsQKibuJXIuSbfxzCBxPLz0+LchU5ds7YyOaCc9872Y32ngYzg=="
-      }
-    },
     "npm:@nodelib/fs.scandir": {
       "type": "npm",
       "name": "npm:@nodelib/fs.scandir",
@@ -1609,123 +1357,6 @@
         "version": "19.1.1",
         "packageName": "@nx/nx-win32-x64-msvc",
         "hash": "sha512-rEWRqcW1osCeaZ9KPfZWARIdOHGd0WXRW6iqqRvZZEAIbGlZP/89Sj2o9Fvs5oHpng7kfrqsDbpbikmmlX7HTQ=="
-      }
-    },
-    "npm:@opentelemetry/api-logs@0.50.0": {
-      "type": "npm",
-      "name": "npm:@opentelemetry/api-logs@0.50.0",
-      "data": {
-        "version": "0.50.0",
-        "packageName": "@opentelemetry/api-logs",
-        "hash": "sha512-JdZuKrhOYggqOpUljAq4WWNi5nB10PmgoF0y2CvedLGXd0kSawb/UBnWT8gg1ND3bHCNHStAIVT0ELlxJJRqrA=="
-      }
-    },
-    "npm:@opentelemetry/api@1.8.0": {
-      "type": "npm",
-      "name": "npm:@opentelemetry/api@1.8.0",
-      "data": {
-        "version": "1.8.0",
-        "packageName": "@opentelemetry/api",
-        "hash": "sha512-I/s6F7yKUDdtMsoBWXJe8Qz40Tui5vsuKCWJEWVL+5q9sSWRzzx6v2KeNsOBEwd94j0eWkpWCH4yB6rZg9Mf0w=="
-      }
-    },
-    "npm:@opentelemetry/core@1.23.0": {
-      "type": "npm",
-      "name": "npm:@opentelemetry/core@1.23.0",
-      "data": {
-        "version": "1.23.0",
-        "packageName": "@opentelemetry/core",
-        "hash": "sha512-hdQ/a9TMzMQF/BO8Cz1juA43/L5YGtCSiKoOHmrTEf7VMDAZgy8ucpWx3eQTnQ3gBloRcWtzvcrMZABC3PTSKQ=="
-      }
-    },
-    "npm:@opentelemetry/core@1.24.1": {
-      "type": "npm",
-      "name": "npm:@opentelemetry/core@1.24.1",
-      "data": {
-        "version": "1.24.1",
-        "packageName": "@opentelemetry/core",
-        "hash": "sha512-wMSGfsdmibI88K9wB498zXY04yThPexo8jvwNNlm542HZB7XrrMRBbAyKJqG8qDRJwIBdBrPMi4V9ZPW/sqrcg=="
-      }
-    },
-    "npm:@opentelemetry/otlp-transformer@0.50.0": {
-      "type": "npm",
-      "name": "npm:@opentelemetry/otlp-transformer@0.50.0",
-      "data": {
-        "version": "0.50.0",
-        "packageName": "@opentelemetry/otlp-transformer",
-        "hash": "sha512-s0sl1Yfqd5q1Kjrf6DqXPWzErL+XHhrXOfejh4Vc/SMTNqC902xDsC8JQxbjuramWt/+hibfguIvi7Ns8VLolA=="
-      }
-    },
-    "npm:@opentelemetry/resources@1.23.0": {
-      "type": "npm",
-      "name": "npm:@opentelemetry/resources@1.23.0",
-      "data": {
-        "version": "1.23.0",
-        "packageName": "@opentelemetry/resources",
-        "hash": "sha512-iPRLfVfcEQynYGo7e4Di+ti+YQTAY0h5mQEUJcHlU9JOqpb4x965O6PZ+wMcwYVY63G96KtdS86YCM1BF1vQZg=="
-      }
-    },
-    "npm:@opentelemetry/resources@1.24.1": {
-      "type": "npm",
-      "name": "npm:@opentelemetry/resources@1.24.1",
-      "data": {
-        "version": "1.24.1",
-        "packageName": "@opentelemetry/resources",
-        "hash": "sha512-cyv0MwAaPF7O86x5hk3NNgenMObeejZFLJJDVuSeSMIsknlsj3oOZzRv3qSzlwYomXsICfBeFFlxwHQte5mGXQ=="
-      }
-    },
-    "npm:@opentelemetry/sdk-logs@0.50.0": {
-      "type": "npm",
-      "name": "npm:@opentelemetry/sdk-logs@0.50.0",
-      "data": {
-        "version": "0.50.0",
-        "packageName": "@opentelemetry/sdk-logs",
-        "hash": "sha512-PeUEupBB29p9nlPNqXoa1PUWNLsZnxG0DCDj3sHqzae+8y76B/A5hvZjg03ulWdnvBLYpnJslqzylG9E0IL87g=="
-      }
-    },
-    "npm:@opentelemetry/sdk-metrics@1.23.0": {
-      "type": "npm",
-      "name": "npm:@opentelemetry/sdk-metrics@1.23.0",
-      "data": {
-        "version": "1.23.0",
-        "packageName": "@opentelemetry/sdk-metrics",
-        "hash": "sha512-4OkvW6+wST4h6LFG23rXSTf6nmTf201h9dzq7bE0z5R9ESEVLERZz6WXwE7PSgg1gdjlaznm1jLJf8GttypFDg=="
-      }
-    },
-    "npm:@opentelemetry/sdk-trace-base@1.23.0": {
-      "type": "npm",
-      "name": "npm:@opentelemetry/sdk-trace-base@1.23.0",
-      "data": {
-        "version": "1.23.0",
-        "packageName": "@opentelemetry/sdk-trace-base",
-        "hash": "sha512-PzBmZM8hBomUqvCddF/5Olyyviayka44O5nDWq673np3ctnvwMOvNrsUORZjKja1zJbwEuD9niAGbnVrz3jwRQ=="
-      }
-    },
-    "npm:@opentelemetry/sdk-trace-base@1.24.1": {
-      "type": "npm",
-      "name": "npm:@opentelemetry/sdk-trace-base@1.24.1",
-      "data": {
-        "version": "1.24.1",
-        "packageName": "@opentelemetry/sdk-trace-base",
-        "hash": "sha512-zz+N423IcySgjihl2NfjBf0qw1RWe11XIAWVrTNOSSI6dtSPJiVom2zipFB2AEEtJWpv0Iz6DY6+TjnyTV5pWg=="
-      }
-    },
-    "npm:@opentelemetry/semantic-conventions@1.23.0": {
-      "type": "npm",
-      "name": "npm:@opentelemetry/semantic-conventions@1.23.0",
-      "data": {
-        "version": "1.23.0",
-        "packageName": "@opentelemetry/semantic-conventions",
-        "hash": "sha512-MiqFvfOzfR31t8cc74CTP1OZfz7MbqpAnLCra8NqQoaHJX6ncIRTdYOQYBDQ2uFISDq0WY8Y9dDTWvsgzzBYRg=="
-      }
-    },
-    "npm:@opentelemetry/semantic-conventions@1.24.1": {
-      "type": "npm",
-      "name": "npm:@opentelemetry/semantic-conventions@1.24.1",
-      "data": {
-        "version": "1.24.1",
-        "packageName": "@opentelemetry/semantic-conventions",
-        "hash": "sha512-VkliWlS4/+GHLLW7J/rVBA00uXus1SWvwFvcUDxDwmFxYfg/2VI6ekwdXS28cjI8Qz2ky2BzG8OUHo+WeYIWqw=="
       }
     },
     "npm:@pkgjs/parseargs": {
@@ -3870,6 +3501,15 @@
         "hash": "sha512-GopVGCpVS1UKH75VKHGuQFqS1Gusej0z4FyQkPdwjil2gNIv+LNsqBlboOzpJFZKVT95GkCyWJbBSdFEFUWI2A=="
       }
     },
+    "npm:dotenv": {
+      "type": "npm",
+      "name": "npm:dotenv",
+      "data": {
+        "version": "16.4.5",
+        "packageName": "dotenv",
+        "hash": "sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg=="
+      }
+    },
     "npm:dotenv@10.0.0": {
       "type": "npm",
       "name": "npm:dotenv@10.0.0",
@@ -3879,9 +3519,9 @@
         "hash": "sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q=="
       }
     },
-    "npm:dotenv": {
+    "npm:dotenv@16.3.2": {
       "type": "npm",
-      "name": "npm:dotenv",
+      "name": "npm:dotenv@16.3.2",
       "data": {
         "version": "16.3.2",
         "packageName": "dotenv",
@@ -4032,15 +3672,6 @@
         "hash": "sha512-i1gCgmR9dCl6Vil6UKPI/trA69s08g/syhiDK9TG0Nf1RJjjFI+AzoWW7sPufzkgYAn861skuCwJa0pIIHYxvg=="
       }
     },
-    "npm:esbuild@0.19.12": {
-      "type": "npm",
-      "name": "npm:esbuild@0.19.12",
-      "data": {
-        "version": "0.19.12",
-        "packageName": "esbuild",
-        "hash": "sha512-aARqgq8roFBj054KvQr5f1sFu0D65G+miZRCuJyJ0G13Zwx7vRar5Zhn2tkQNzIXcBrNVsv/8stehpj+GAjgbg=="
-      }
-    },
     "npm:esbuild@0.20.2": {
       "type": "npm",
       "name": "npm:esbuild@0.20.2",
@@ -4140,9 +3771,9 @@
         "hash": "sha512-OtIRv/2GyiF6o/d8K7MYKKbXrOUBIK6SfkIRM4Z0dY3w+LiQ0vy3F57m0Z71bjbyeiWFiHJ8brqnmE6H6/jEuw=="
       }
     },
-    "npm:eslint": {
+    "npm:eslint@9.3.0": {
       "type": "npm",
-      "name": "npm:eslint",
+      "name": "npm:eslint@9.3.0",
       "data": {
         "version": "9.3.0",
         "packageName": "eslint",
@@ -4626,18 +4257,18 @@
         "hash": "sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA=="
       }
     },
-    "npm:globals@14.0.0": {
+    "npm:globals": {
       "type": "npm",
-      "name": "npm:globals@14.0.0",
+      "name": "npm:globals",
       "data": {
         "version": "14.0.0",
         "packageName": "globals",
         "hash": "sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ=="
       }
     },
-    "npm:globals": {
+    "npm:globals@15.3.0": {
       "type": "npm",
-      "name": "npm:globals",
+      "name": "npm:globals@15.3.0",
       "data": {
         "version": "15.3.0",
         "packageName": "globals",
@@ -8514,15 +8145,6 @@
         "hash": "sha512-BrnFCWKNFrFnRzKD66NtJqQepfJrUHNPvPxE5y5NSAhXBb4OlobQjt7907Jm4ItPiXaeX+dDWMkcnOd4jR9N8A=="
       }
     },
-    "npm:urlpattern-polyfill@8.0.2": {
-      "type": "npm",
-      "name": "npm:urlpattern-polyfill@8.0.2",
-      "data": {
-        "version": "8.0.2",
-        "packageName": "urlpattern-polyfill",
-        "hash": "sha512-Qp95D4TPJl1kC9SKigDcqgyM2VDVO4RiJc2d4qe5GrYm+zbIQCWWKAFaJNQ4BhdFeDGwBmAxqJBwWSJDb9T3BQ=="
-      }
-    },
     "npm:util-deprecate": {
       "type": "npm",
       "name": "npm:util-deprecate",
@@ -9317,21 +8939,6 @@
       "type": "static"
     },
     {
-      "source": "npm:@astrojs/netlify@5.2.1",
-      "target": "npm:@astrojs/underscore-redirects@0.3.3",
-      "type": "static"
-    },
-    {
-      "source": "npm:@astrojs/netlify@5.2.1",
-      "target": "npm:@netlify/functions@2.7.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:@astrojs/netlify@5.2.1",
-      "target": "npm:esbuild@0.19.12",
-      "type": "static"
-    },
-    {
       "source": "npm:@astrojs/prism",
       "target": "npm:prismjs",
       "type": "static"
@@ -9903,7 +9510,7 @@
     },
     {
       "source": "npm:@eslint/eslintrc",
-      "target": "npm:globals@14.0.0",
+      "target": "npm:globals",
       "type": "static"
     },
     {
@@ -9932,17 +9539,17 @@
       "type": "static"
     },
     {
-      "source": "npm:@humanwhocodes/config-array",
-      "target": "npm:@humanwhocodes/object-schema",
+      "source": "npm:@humanwhocodes/config-array@0.13.0",
+      "target": "npm:@humanwhocodes/object-schema@2.0.3",
       "type": "static"
     },
     {
-      "source": "npm:@humanwhocodes/config-array",
+      "source": "npm:@humanwhocodes/config-array@0.13.0",
       "target": "npm:debug",
       "type": "static"
     },
     {
-      "source": "npm:@humanwhocodes/config-array",
+      "source": "npm:@humanwhocodes/config-array@0.13.0",
       "target": "npm:minimatch",
       "type": "static"
     },
@@ -10302,46 +9909,6 @@
       "type": "static"
     },
     {
-      "source": "npm:@netlify/functions@2.7.0",
-      "target": "npm:@netlify/serverless-functions-api@1.18.1",
-      "type": "static"
-    },
-    {
-      "source": "npm:@netlify/serverless-functions-api@1.18.1",
-      "target": "npm:@netlify/node-cookies@0.1.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:@netlify/serverless-functions-api@1.18.1",
-      "target": "npm:@opentelemetry/core@1.24.1",
-      "type": "static"
-    },
-    {
-      "source": "npm:@netlify/serverless-functions-api@1.18.1",
-      "target": "npm:@opentelemetry/otlp-transformer@0.50.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:@netlify/serverless-functions-api@1.18.1",
-      "target": "npm:@opentelemetry/resources@1.24.1",
-      "type": "static"
-    },
-    {
-      "source": "npm:@netlify/serverless-functions-api@1.18.1",
-      "target": "npm:@opentelemetry/sdk-trace-base@1.24.1",
-      "type": "static"
-    },
-    {
-      "source": "npm:@netlify/serverless-functions-api@1.18.1",
-      "target": "npm:@opentelemetry/semantic-conventions@1.24.1",
-      "type": "static"
-    },
-    {
-      "source": "npm:@netlify/serverless-functions-api@1.18.1",
-      "target": "npm:urlpattern-polyfill@8.0.2",
-      "type": "static"
-    },
-    {
       "source": "npm:@nodelib/fs.scandir",
       "target": "npm:@nodelib/fs.stat",
       "type": "static"
@@ -10429,141 +9996,6 @@
     {
       "source": "npm:@nrwl/tao",
       "target": "npm:tslib",
-      "type": "static"
-    },
-    {
-      "source": "npm:@opentelemetry/api-logs@0.50.0",
-      "target": "npm:@opentelemetry/api@1.8.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:@opentelemetry/core@1.23.0",
-      "target": "npm:@opentelemetry/semantic-conventions@1.23.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:@opentelemetry/core@1.24.1",
-      "target": "npm:@opentelemetry/semantic-conventions@1.24.1",
-      "type": "static"
-    },
-    {
-      "source": "npm:@opentelemetry/core@1.24.1",
-      "target": "npm:@opentelemetry/semantic-conventions@1.24.1",
-      "type": "static"
-    },
-    {
-      "source": "npm:@opentelemetry/otlp-transformer@0.50.0",
-      "target": "npm:@opentelemetry/api-logs@0.50.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:@opentelemetry/otlp-transformer@0.50.0",
-      "target": "npm:@opentelemetry/core@1.23.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:@opentelemetry/otlp-transformer@0.50.0",
-      "target": "npm:@opentelemetry/resources@1.23.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:@opentelemetry/otlp-transformer@0.50.0",
-      "target": "npm:@opentelemetry/sdk-logs@0.50.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:@opentelemetry/otlp-transformer@0.50.0",
-      "target": "npm:@opentelemetry/sdk-metrics@1.23.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:@opentelemetry/otlp-transformer@0.50.0",
-      "target": "npm:@opentelemetry/sdk-trace-base@1.23.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:@opentelemetry/resources@1.23.0",
-      "target": "npm:@opentelemetry/core@1.23.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:@opentelemetry/resources@1.23.0",
-      "target": "npm:@opentelemetry/semantic-conventions@1.23.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:@opentelemetry/resources@1.24.1",
-      "target": "npm:@opentelemetry/core@1.24.1",
-      "type": "static"
-    },
-    {
-      "source": "npm:@opentelemetry/resources@1.24.1",
-      "target": "npm:@opentelemetry/semantic-conventions@1.24.1",
-      "type": "static"
-    },
-    {
-      "source": "npm:@opentelemetry/resources@1.24.1",
-      "target": "npm:@opentelemetry/core@1.24.1",
-      "type": "static"
-    },
-    {
-      "source": "npm:@opentelemetry/resources@1.24.1",
-      "target": "npm:@opentelemetry/semantic-conventions@1.24.1",
-      "type": "static"
-    },
-    {
-      "source": "npm:@opentelemetry/sdk-logs@0.50.0",
-      "target": "npm:@opentelemetry/core@1.23.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:@opentelemetry/sdk-logs@0.50.0",
-      "target": "npm:@opentelemetry/resources@1.23.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:@opentelemetry/sdk-metrics@1.23.0",
-      "target": "npm:@opentelemetry/core@1.23.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:@opentelemetry/sdk-metrics@1.23.0",
-      "target": "npm:@opentelemetry/resources@1.23.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:@opentelemetry/sdk-metrics@1.23.0",
-      "target": "npm:lodash.merge",
-      "type": "static"
-    },
-    {
-      "source": "npm:@opentelemetry/sdk-trace-base@1.23.0",
-      "target": "npm:@opentelemetry/core@1.23.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:@opentelemetry/sdk-trace-base@1.23.0",
-      "target": "npm:@opentelemetry/resources@1.23.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:@opentelemetry/sdk-trace-base@1.23.0",
-      "target": "npm:@opentelemetry/semantic-conventions@1.23.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:@opentelemetry/sdk-trace-base@1.24.1",
-      "target": "npm:@opentelemetry/core@1.24.1",
-      "type": "static"
-    },
-    {
-      "source": "npm:@opentelemetry/sdk-trace-base@1.24.1",
-      "target": "npm:@opentelemetry/resources@1.24.1",
-      "type": "static"
-    },
-    {
-      "source": "npm:@opentelemetry/sdk-trace-base@1.24.1",
-      "target": "npm:@opentelemetry/semantic-conventions@1.24.1",
       "type": "static"
     },
     {
@@ -13092,121 +12524,6 @@
       "type": "static"
     },
     {
-      "source": "npm:esbuild@0.19.12",
-      "target": "npm:@esbuild/aix-ppc64@0.19.12",
-      "type": "static"
-    },
-    {
-      "source": "npm:esbuild@0.19.12",
-      "target": "npm:@esbuild/android-arm@0.19.12",
-      "type": "static"
-    },
-    {
-      "source": "npm:esbuild@0.19.12",
-      "target": "npm:@esbuild/android-arm64@0.19.12",
-      "type": "static"
-    },
-    {
-      "source": "npm:esbuild@0.19.12",
-      "target": "npm:@esbuild/android-x64@0.19.12",
-      "type": "static"
-    },
-    {
-      "source": "npm:esbuild@0.19.12",
-      "target": "npm:@esbuild/darwin-arm64@0.19.12",
-      "type": "static"
-    },
-    {
-      "source": "npm:esbuild@0.19.12",
-      "target": "npm:@esbuild/darwin-x64@0.19.12",
-      "type": "static"
-    },
-    {
-      "source": "npm:esbuild@0.19.12",
-      "target": "npm:@esbuild/freebsd-arm64@0.19.12",
-      "type": "static"
-    },
-    {
-      "source": "npm:esbuild@0.19.12",
-      "target": "npm:@esbuild/freebsd-x64@0.19.12",
-      "type": "static"
-    },
-    {
-      "source": "npm:esbuild@0.19.12",
-      "target": "npm:@esbuild/linux-arm@0.19.12",
-      "type": "static"
-    },
-    {
-      "source": "npm:esbuild@0.19.12",
-      "target": "npm:@esbuild/linux-arm64@0.19.12",
-      "type": "static"
-    },
-    {
-      "source": "npm:esbuild@0.19.12",
-      "target": "npm:@esbuild/linux-ia32@0.19.12",
-      "type": "static"
-    },
-    {
-      "source": "npm:esbuild@0.19.12",
-      "target": "npm:@esbuild/linux-loong64@0.19.12",
-      "type": "static"
-    },
-    {
-      "source": "npm:esbuild@0.19.12",
-      "target": "npm:@esbuild/linux-mips64el@0.19.12",
-      "type": "static"
-    },
-    {
-      "source": "npm:esbuild@0.19.12",
-      "target": "npm:@esbuild/linux-ppc64@0.19.12",
-      "type": "static"
-    },
-    {
-      "source": "npm:esbuild@0.19.12",
-      "target": "npm:@esbuild/linux-riscv64@0.19.12",
-      "type": "static"
-    },
-    {
-      "source": "npm:esbuild@0.19.12",
-      "target": "npm:@esbuild/linux-s390x@0.19.12",
-      "type": "static"
-    },
-    {
-      "source": "npm:esbuild@0.19.12",
-      "target": "npm:@esbuild/linux-x64@0.19.12",
-      "type": "static"
-    },
-    {
-      "source": "npm:esbuild@0.19.12",
-      "target": "npm:@esbuild/netbsd-x64@0.19.12",
-      "type": "static"
-    },
-    {
-      "source": "npm:esbuild@0.19.12",
-      "target": "npm:@esbuild/openbsd-x64@0.19.12",
-      "type": "static"
-    },
-    {
-      "source": "npm:esbuild@0.19.12",
-      "target": "npm:@esbuild/sunos-x64@0.19.12",
-      "type": "static"
-    },
-    {
-      "source": "npm:esbuild@0.19.12",
-      "target": "npm:@esbuild/win32-arm64@0.19.12",
-      "type": "static"
-    },
-    {
-      "source": "npm:esbuild@0.19.12",
-      "target": "npm:@esbuild/win32-ia32@0.19.12",
-      "type": "static"
-    },
-    {
-      "source": "npm:esbuild@0.19.12",
-      "target": "npm:@esbuild/win32-x64@0.19.12",
-      "type": "static"
-    },
-    {
       "source": "npm:esbuild@0.20.2",
       "target": "npm:@esbuild/aix-ppc64@0.20.2",
       "type": "static"
@@ -13468,7 +12785,7 @@
     },
     {
       "source": "npm:eslint-plugin-astro",
-      "target": "npm:globals",
+      "target": "npm:globals@15.3.0",
       "type": "static"
     },
     {
@@ -13492,172 +12809,172 @@
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:@eslint-community/eslint-utils",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:@eslint-community/regexpp",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:@eslint/eslintrc",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
-      "target": "npm:@eslint/js",
+      "source": "npm:eslint@9.3.0",
+      "target": "npm:@eslint/js@9.3.0",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
-      "target": "npm:@humanwhocodes/config-array",
+      "source": "npm:eslint@9.3.0",
+      "target": "npm:@humanwhocodes/config-array@0.13.0",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:@humanwhocodes/module-importer",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:@humanwhocodes/retry",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:@nodelib/fs.walk",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:ajv",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:chalk",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:cross-spawn",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:debug",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:escape-string-regexp@4.0.0",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:eslint-scope",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:eslint-visitor-keys",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:espree",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:esquery",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:esutils",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:fast-deep-equal",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:file-entry-cache",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:find-up",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:glob-parent@6.0.2",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:ignore",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:imurmurhash",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:is-glob",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:is-path-inside",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:json-stable-stringify-without-jsonify",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:levn",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:lodash.merge",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:minimatch",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:natural-compare",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:optionator",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:strip-ansi",
       "type": "static"
     },
     {
-      "source": "npm:eslint",
+      "source": "npm:eslint@9.3.0",
       "target": "npm:text-table",
       "type": "static"
     },
@@ -16758,7 +16075,7 @@
     },
     {
       "source": "npm:nx",
-      "target": "npm:dotenv",
+      "target": "npm:dotenv@16.3.2",
       "type": "static"
     },
     {
@@ -16973,7 +16290,7 @@
     },
     {
       "source": "npm:nx",
-      "target": "npm:dotenv",
+      "target": "npm:dotenv@16.3.2",
       "type": "static"
     },
     {
