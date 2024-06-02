@@ -5,6 +5,7 @@
     "@astrojs/check": "^0.7.0",
     "@astrojs/react": "^3.4.0",
     "@astrojs/rss": "^4.0.6",
+    "@astrojs/ts-plugin": "^1.8.0",
     "@iconify-json/octicon": "^1.1.54",
     "@notionhq/client": "^2.2.15",
     "@supercharge/promise-pool": "^3.2.0",
@@ -26,12 +27,10 @@
     "prismjs": "^1.29.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "sharp": "^0.33.4",
     "typescript": "^5.4.5",
     "@eslint/eslintrc": "^3.1.0",
     "@nrwl/nx-cloud": "^19.0.0",
     "@types/async-retry": "^1.4.8",
-    "@types/js-base64": "^3.3.1",
     "@types/katex": "^0.16.7",
     "@types/prismjs": "^1.26.4",
     "@typescript-eslint/eslint-plugin": "^7.11.0",
@@ -80,11 +79,16 @@
         },
         {
           "file": "package.json",
+<<<<<<< HEAD
           "hash": "8606821325352772162",
+=======
+          "hash": "14661559728729971984",
+>>>>>>> 27a9186 (removed sharp)
           "deps": [
             "npm:@astrojs/check",
             "npm:@astrojs/react",
             "npm:@astrojs/rss",
+            "npm:@astrojs/ts-plugin",
             "npm:@iconify-json/octicon",
             "npm:@notionhq/client",
             "npm:@supercharge/promise-pool",
@@ -106,12 +110,10 @@
             "npm:prismjs",
             "npm:react",
             "npm:react-dom",
-            "npm:sharp",
             "npm:typescript",
             "npm:@eslint/eslintrc",
             "npm:@nrwl/nx-cloud",
             "npm:@types/async-retry",
-            "npm:@types/js-base64",
             "npm:@types/katex",
             "npm:@types/prismjs",
             "npm:@typescript-eslint/eslint-plugin",
@@ -372,7 +374,11 @@
         },
         {
           "file": "src/lib/notion/client.ts",
+<<<<<<< HEAD
           "hash": "5346459474170285561"
+=======
+          "hash": "7845247428773559979"
+>>>>>>> 27a9186 (removed sharp)
         },
         {
           "file": "src/lib/notion/request-params.ts",
@@ -429,6 +435,13 @@
         {
           "file": "tsconfig.json",
           "hash": "1611178444315041391"
+<<<<<<< HEAD
+=======
+        },
+        {
+          "file": "yarn.lock",
+          "hash": "12295845755688757493"
+>>>>>>> 27a9186 (removed sharp)
         }
       ]
     },

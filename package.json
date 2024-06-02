@@ -2,6 +2,25 @@
   "name": "bottom-think",
   "type": "module",
   "version": "0.0.1",
+  "supportedArchitectures": {
+    "os": [
+      "current",
+      "darwin",
+      "linux",
+      "win32"
+    ],
+    "cpu": [
+      "current",
+      "x64",
+      "ia32",
+      "arm64"
+    ],
+    "libc": [
+      "current",
+      "glibc",
+      "musl"
+    ]
+  },
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -19,6 +38,7 @@
     "@astrojs/check": "^0.7.0",
     "@astrojs/react": "^3.4.0",
     "@astrojs/rss": "^4.0.6",
+    "@astrojs/ts-plugin": "^1.8.0",
     "@iconify-json/octicon": "^1.1.54",
     "@notionhq/client": "^2.2.15",
     "@nrwl/nx-cloud": "^19.0.0",
@@ -37,17 +57,16 @@
     "metascraper-description": "^5.45.7",
     "metascraper-image": "^5.45.7",
     "metascraper-title": "^5.45.7",
+    "node-fetch": "^3.3.2",
     "nx": "^19.1.1",
     "prismjs": "^1.29.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "sharp": "^0.33.4",
     "typescript": "^5.4.5"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.1.0",
     "@types/async-retry": "^1.4.8",
-    "@types/js-base64": "^3.3.1",
     "@types/katex": "^0.16.7",
     "@types/prismjs": "^1.26.4",
     "@typescript-eslint/eslint-plugin": "^7.11.0",

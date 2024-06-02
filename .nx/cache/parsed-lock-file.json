@@ -108,6 +108,15 @@
         "hash": "sha512-/ca/+D8MIKEC8/A9cSaPUqQNZm+Es/ZinRv0ZAzvu2ios7POQSsVD+VOj7/hypWNsNM3T7RpfgNq7H2TU1KEHA=="
       }
     },
+    "npm:@astrojs/ts-plugin": {
+      "type": "npm",
+      "name": "npm:@astrojs/ts-plugin",
+      "data": {
+        "version": "1.8.0",
+        "packageName": "@astrojs/ts-plugin",
+        "hash": "sha512-SXbMemCjA66eHXLon2uDGkLAdbIRS+EzSBKPqBuOcQ4XzU/o+oTTp12cXBIQTOtP/zsnuJPYA6gc36Ylic196g=="
+      }
+    },
     "npm:@babel/code-frame": {
       "type": "npm",
       "name": "npm:@babel/code-frame",
@@ -1674,9 +1683,9 @@
         "hash": "sha512-WPs+bbQw5aCj+x6laNGWLH3wviHtoCv/P3+otBhbOhJgG8qtpdAMlTCxLtsTWA7LH1Oh/bFCHsBn0TPS5m30EQ=="
       }
     },
-    "npm:@types/js-base64": {
+    "npm:@types/js-base64@3.3.1": {
       "type": "npm",
-      "name": "npm:@types/js-base64",
+      "name": "npm:@types/js-base64@3.3.1",
       "data": {
         "version": "3.3.1",
         "packageName": "@types/js-base64",
@@ -4968,9 +4977,9 @@
         "hash": "sha512-zrteXnqYxfQh7l5FHyL38jL39di8H8rHoecLH3JNxH3BwOrBsNeabdap5e0I23lD4HHI8W5VFBZqG4Eaq5LNcw=="
       }
     },
-    "npm:js-base64": {
+    "npm:js-base64@3.7.7": {
       "type": "npm",
-      "name": "npm:js-base64",
+      "name": "npm:js-base64@3.7.7",
       "data": {
         "version": "3.7.7",
         "packageName": "js-base64",
@@ -9008,6 +9017,36 @@
       "type": "static"
     },
     {
+      "source": "npm:@astrojs/ts-plugin",
+      "target": "npm:@astrojs/compiler",
+      "type": "static"
+    },
+    {
+      "source": "npm:@astrojs/ts-plugin",
+      "target": "npm:@jridgewell/sourcemap-codec",
+      "type": "static"
+    },
+    {
+      "source": "npm:@astrojs/ts-plugin",
+      "target": "npm:@volar/language-core",
+      "type": "static"
+    },
+    {
+      "source": "npm:@astrojs/ts-plugin",
+      "target": "npm:@volar/typescript",
+      "type": "static"
+    },
+    {
+      "source": "npm:@astrojs/ts-plugin",
+      "target": "npm:semver",
+      "type": "static"
+    },
+    {
+      "source": "npm:@astrojs/ts-plugin",
+      "target": "npm:vscode-languageserver-textdocument",
+      "type": "static"
+    },
+    {
       "source": "npm:@babel/code-frame",
       "target": "npm:@babel/highlight",
       "type": "static"
@@ -10078,8 +10117,8 @@
       "type": "static"
     },
     {
-      "source": "npm:@types/js-base64",
-      "target": "npm:js-base64",
+      "source": "npm:@types/js-base64@3.3.1",
+      "target": "npm:js-base64@3.7.7",
       "type": "static"
     },
     {
@@ -17330,116 +17369,6 @@
     {
       "source": "npm:section-matter",
       "target": "npm:kind-of",
-      "type": "static"
-    },
-    {
-      "source": "npm:sharp",
-      "target": "npm:color",
-      "type": "static"
-    },
-    {
-      "source": "npm:sharp",
-      "target": "npm:detect-libc",
-      "type": "static"
-    },
-    {
-      "source": "npm:sharp",
-      "target": "npm:semver",
-      "type": "static"
-    },
-    {
-      "source": "npm:sharp",
-      "target": "npm:@img/sharp-darwin-arm64@0.33.4",
-      "type": "static"
-    },
-    {
-      "source": "npm:sharp",
-      "target": "npm:@img/sharp-darwin-x64@0.33.4",
-      "type": "static"
-    },
-    {
-      "source": "npm:sharp",
-      "target": "npm:@img/sharp-libvips-darwin-arm64@1.0.2",
-      "type": "static"
-    },
-    {
-      "source": "npm:sharp",
-      "target": "npm:@img/sharp-libvips-darwin-x64@1.0.2",
-      "type": "static"
-    },
-    {
-      "source": "npm:sharp",
-      "target": "npm:@img/sharp-libvips-linux-arm@1.0.2",
-      "type": "static"
-    },
-    {
-      "source": "npm:sharp",
-      "target": "npm:@img/sharp-libvips-linux-arm64@1.0.2",
-      "type": "static"
-    },
-    {
-      "source": "npm:sharp",
-      "target": "npm:@img/sharp-libvips-linux-s390x@1.0.2",
-      "type": "static"
-    },
-    {
-      "source": "npm:sharp",
-      "target": "npm:@img/sharp-libvips-linux-x64@1.0.2",
-      "type": "static"
-    },
-    {
-      "source": "npm:sharp",
-      "target": "npm:@img/sharp-libvips-linuxmusl-arm64@1.0.2",
-      "type": "static"
-    },
-    {
-      "source": "npm:sharp",
-      "target": "npm:@img/sharp-libvips-linuxmusl-x64@1.0.2",
-      "type": "static"
-    },
-    {
-      "source": "npm:sharp",
-      "target": "npm:@img/sharp-linux-arm@0.33.4",
-      "type": "static"
-    },
-    {
-      "source": "npm:sharp",
-      "target": "npm:@img/sharp-linux-arm64@0.33.4",
-      "type": "static"
-    },
-    {
-      "source": "npm:sharp",
-      "target": "npm:@img/sharp-linux-s390x@0.33.4",
-      "type": "static"
-    },
-    {
-      "source": "npm:sharp",
-      "target": "npm:@img/sharp-linux-x64@0.33.4",
-      "type": "static"
-    },
-    {
-      "source": "npm:sharp",
-      "target": "npm:@img/sharp-linuxmusl-arm64@0.33.4",
-      "type": "static"
-    },
-    {
-      "source": "npm:sharp",
-      "target": "npm:@img/sharp-linuxmusl-x64@0.33.4",
-      "type": "static"
-    },
-    {
-      "source": "npm:sharp",
-      "target": "npm:@img/sharp-wasm32@0.33.4",
-      "type": "static"
-    },
-    {
-      "source": "npm:sharp",
-      "target": "npm:@img/sharp-win32-ia32@0.33.4",
-      "type": "static"
-    },
-    {
-      "source": "npm:sharp",
-      "target": "npm:@img/sharp-win32-x64@0.33.4",
       "type": "static"
     },
     {
