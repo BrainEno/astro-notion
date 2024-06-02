@@ -48,15 +48,15 @@
       "bottom-think": [
         {
           "file": ".nxignore",
-          "hash": "595692451669699426"
+          "hash": "4014036364570777077"
         },
         {
           "file": ".prettierignore",
-          "hash": "13871338223642081143"
+          "hash": "18238402928249570338"
         },
         {
           "file": ".prettierrc",
-          "hash": "3936848521911622678"
+          "hash": "13042661389549862602"
         },
         {
           "file": ".vscode/extensions.json",
@@ -76,11 +76,11 @@
         },
         {
           "file": "eslint.config.mjs",
-          "hash": "17550750454610192892"
+          "hash": "5821567674629836671"
         },
         {
           "file": "package.json",
-          "hash": "359582252649995952",
+          "hash": "8606821325352772162",
           "deps": [
             "npm:@astrojs/check",
             "npm:@astrojs/react",
@@ -118,6 +118,7 @@
             "npm:@typescript-eslint/parser",
             "npm:@typescript-eslint/typescript-estree",
             "npm:cli-progress",
+            "npm:eslint",
             "npm:eslint-plugin-astro"
           ]
         },
@@ -151,15 +152,15 @@
         },
         {
           "file": "public/scripts/fslightbox.js",
-          "hash": "18039585792401990536"
+          "hash": "10724857505174435419"
         },
         {
           "file": "scripts/blog-contents-cache.cjs",
-          "hash": "9448518923369656912"
+          "hash": "8194667345440447121"
         },
         {
           "file": "scripts/retrieve-block-children.cjs",
-          "hash": "12255489702177742427"
+          "hash": "3254552022271638838"
         },
         {
           "file": "src/components/BlogPostsLink.astro",
@@ -175,15 +176,15 @@
         },
         {
           "file": "src/components/GoogleAnalytics.astro",
-          "hash": "1946941076570435665"
+          "hash": "2303776643821888124"
         },
         {
           "file": "src/components/Header.astro",
-          "hash": "7522411715656621928"
+          "hash": "516045809832409801"
         },
         {
           "file": "src/components/HeaderLink.astro",
-          "hash": "5633394955004813239"
+          "hash": "9486377463347164813"
         },
         {
           "file": "src/components/NoContents.astro",
@@ -219,11 +220,11 @@
         },
         {
           "file": "src/components/PostTags.astro",
-          "hash": "2884637875140775046"
+          "hash": "13457343978050214232"
         },
         {
           "file": "src/components/PostTitle.astro",
-          "hash": "10921307402883559572"
+          "hash": "524969572880102632"
         },
         {
           "file": "src/components/ReadMoreLink.astro",
@@ -231,11 +232,11 @@
         },
         {
           "file": "src/components/SearchButton.astro",
-          "hash": "979558445171973854"
+          "hash": "6720926020192006275"
         },
         {
           "file": "src/components/SearchModal.astro",
-          "hash": "17840037024031011529"
+          "hash": "6362605988225433659"
         },
         {
           "file": "src/components/notion-blocks/Bookmark.astro",
@@ -363,35 +364,35 @@
         },
         {
           "file": "src/lib/blog-helpers.ts",
-          "hash": "6598498345293305198"
+          "hash": "1721111144430826161"
         },
         {
           "file": "src/lib/interfaces.ts",
-          "hash": "1184474147837645629"
+          "hash": "13279149291675224409"
         },
         {
           "file": "src/lib/notion/client.ts",
-          "hash": "7676089879654846506"
+          "hash": "5346459474170285561"
         },
         {
           "file": "src/lib/notion/request-params.ts",
-          "hash": "857997596836470231"
+          "hash": "7709296415743837116"
         },
         {
           "file": "src/lib/notion/responses.ts",
-          "hash": "638594330667460383"
+          "hash": "13798417084483236939"
         },
         {
           "file": "src/lib/style-helpers.ts",
-          "hash": "8432055890753527749"
+          "hash": "13629914417529772620"
         },
         {
           "file": "src/lib/utils.ts",
-          "hash": "11778612997437530291"
+          "hash": "10403531243378294168"
         },
         {
           "file": "src/pages/feed.ts",
-          "hash": "11815011895629942675"
+          "hash": "11817831671035227843"
         },
         {
           "file": "src/pages/index.astro",
@@ -399,39 +400,35 @@
         },
         {
           "file": "src/pages/posts/[slug].astro",
-          "hash": "15222189484387058799"
+          "hash": "9721806875780922932"
         },
         {
           "file": "src/pages/posts/page/[page].astro",
-          "hash": "12179464734734025220"
+          "hash": "8554254879912627310"
         },
         {
           "file": "src/server-constants.ts",
-          "hash": "11165242315783794196"
+          "hash": "14136820865623836945"
         },
         {
           "file": "src/styles/blog.module.css",
-          "hash": "7386826039818699079"
+          "hash": "14287503369585474896"
         },
         {
           "file": "src/styles/global.css",
-          "hash": "17895271158899068553"
+          "hash": "4966316383725260951"
         },
         {
           "file": "src/styles/notion-color.css",
-          "hash": "14740672755677390991"
+          "hash": "11018011304643715039"
         },
         {
           "file": "src/styles/tag-color.css",
-          "hash": "1921507416792105960"
+          "hash": "9563001307888024968"
         },
         {
           "file": "tsconfig.json",
           "hash": "1611178444315041391"
-        },
-        {
-          "file": "yarn.lock",
-          "hash": "7404834297875664464"
         }
       ]
     },

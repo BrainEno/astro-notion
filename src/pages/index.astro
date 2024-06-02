@@ -18,6 +18,9 @@ const [rankedPosts, recentPosts] = await Promise.all([
         ))
       }
     </div>
+    <div>
+      <h1>{recentPosts && 'Recent Post'}</h1>
+    </div>
   </div>
 </Layout>
 

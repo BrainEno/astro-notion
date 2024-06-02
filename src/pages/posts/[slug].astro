@@ -71,7 +71,7 @@ await Promise.all(
         return Promise.resolve(url)
       })
     )
-    .map((promise) => promise.then(downloadFile as any))
+    .map((promise) => promise.then(downloadFile as () => Promise<void>))
 )
 
 const currentPostIndex = allPosts.findIndex((post) => post.Slug === slug)

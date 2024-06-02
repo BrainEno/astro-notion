@@ -1,10 +1,9 @@
 ---
 import { PUBLIC_GA_TRACKING_ID, ENABLE_LIGHTBOX } from '../server-constants.ts'
 import { getDatabase } from '../lib/notion/client.ts'
-import { getNavLink, getStaticFilePath, filePath } from '../lib/blog-helpers.ts'
+import { getNavLink, getStaticFilePath } from '../lib/blog-helpers.ts'
 import GoogleAnalytics from '../components/GoogleAnalytics.astro'
 import SearchModal from '../components/SearchModal.astro'
-import type { FileObject } from '../lib/interfaces'
 import Header from '../components/Header.astro'
 
 export interface Props {
@@ -22,22 +21,9 @@ const siteTitle = database.Title ? database.Title : 'Bottom Think'
 const siteDescription = description ? description : database.Description
 const siteURL = new URL(getNavLink(path), Astro.site).toString()
 const siteOGImage = new URL(
-  getStaticFilePath('/default-og-image.png'),
+  getStaticFilePath('/default-og-image.jpg'),
   Astro.site
 )
-
-let coverImageURL: string = ''
-if (database.Cover) {
-  if (database.Cover.Type === 'external') {
-    coverImageURL = database.Cover.Url
-  } else if (database.Cover.Type === 'file') {
-    try {
-      coverImageURL = filePath(new URL(database.Cover.Url))
-    } catch (err) {
-      console.log('Invalid DB cover image URL')
-    }
-  }
-}
 ---
 
 <!doctype html>
