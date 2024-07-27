@@ -1,6 +1,6 @@
 ---
-import type { Block } from '../lib/interfaces.ts'
-import NotionBlocks from './NotionBlocks.astro'
+import type { Block } from '../../lib/interfaces.ts'
+import NotionBlocks from '../NotionBlocks.astro'
 
 export interface Props {
   blocks: Block[]
@@ -16,5 +16,6 @@ const { blocks } = Astro.props
 <style>
   .post-body {
     padding: 0.5rem 0;
+    letter-spacing: 0.5px;
   }
 </style>

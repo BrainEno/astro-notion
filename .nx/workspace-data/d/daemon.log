@@ -1,0 +1,74 @@
+[NX Daemon Server] - 2024-07-10T10:08:31.839Z - Started listening on: \\.\pipe\nx\C:\Users\MSI\AppData\Local\Temp\8d68c74aae15bf3a73a8\d.sock
+[NX Daemon Server] - 2024-07-10T10:08:31.846Z - [WATCHER]: Subscribed to changes within: F:\astro\bottom-ile (native)
+[NX Daemon Server] - 2024-07-10T10:08:31.848Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-10T10:08:31.850Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-10T10:08:31.852Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-10T10:08:31.860Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-07-10T10:08:31.861Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-07-10T10:08:31.862Z - Handled GLOB. Handling time: 5. Response time: 2.
+[NX Daemon Server] - 2024-07-10T10:08:44.982Z - [REQUEST]: Responding to the client. handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-07-10T10:08:44.982Z - Done responding to the client handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-07-10T10:08:44.982Z - Handled GET_NX_WORKSPACE_FILES. Handling time: 4. Response time: 0.
+[NX Daemon Server] - 2024-07-10T10:08:45.107Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-19T15:18:43.140Z - Started listening on: \\.\pipe\nx\C:\Users\MSI\AppData\Local\Temp\8d68c74aae15bf3a73a8\d.sock
+[NX Daemon Server] - 2024-07-19T15:18:43.161Z - [WATCHER]: Subscribed to changes within: F:\astro\bottom-ile (native)
+[NX Daemon Server] - 2024-07-19T15:18:43.164Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-19T15:18:43.167Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-19T15:18:43.169Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-19T15:18:43.171Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-07-19T15:18:43.172Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-07-19T15:18:43.172Z - Handled GLOB. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-07-19T15:18:56.783Z - [REQUEST]: Responding to the client. handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-07-19T15:18:56.783Z - Done responding to the client handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-07-19T15:18:56.783Z - Handled GET_NX_WORKSPACE_FILES. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-19T15:18:56.902Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-19T15:18:57.192Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-19T15:21:18.605Z - Started listening on: \\.\pipe\nx\C:\Users\MSI\AppData\Local\Temp\8d68c74aae15bf3a73a8\d.sock
+[NX Daemon Server] - 2024-07-19T15:21:18.610Z - [WATCHER]: Subscribed to changes within: F:\astro\bottom-ile (native)
+[NX Daemon Server] - 2024-07-19T15:21:18.614Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-19T15:21:18.618Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-19T15:21:18.618Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-19T15:21:18.623Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-07-19T15:21:18.624Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-07-19T15:21:18.624Z - Handled GLOB. Handling time: 2. Response time: 1.
+[NX Daemon Server] - 2024-07-19T15:21:19.910Z - [REQUEST]: Responding to the client. handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-07-19T15:21:19.911Z - Done responding to the client handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-07-19T15:21:19.911Z - Handled GET_NX_WORKSPACE_FILES. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-07-19T15:21:19.983Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-19T15:21:20.237Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-27T04:27:05.616Z - Started listening on: \\.\pipe\nx\C:\Users\MSI\AppData\Local\Temp\8d68c74aae15bf3a73a8\d.sock
+[NX Daemon Server] - 2024-07-27T04:27:05.648Z - [WATCHER]: Subscribed to changes within: F:\astro\bottom-ile (native)
+[NX Daemon Server] - 2024-07-27T04:27:05.651Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-27T04:27:05.652Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-27T04:27:05.654Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-27T04:27:05.657Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-07-27T04:27:05.659Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-07-27T04:27:05.659Z - Handled GLOB. Handling time: 1. Response time: 2.
+[NX Daemon Server] - 2024-07-27T04:27:17.274Z - [REQUEST]: Responding to the client. handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-07-27T04:27:17.275Z - Done responding to the client handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-07-27T04:27:17.275Z - Handled GET_NX_WORKSPACE_FILES. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-07-27T04:27:17.425Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-27T04:53:05.611Z - Started listening on: \\.\pipe\nx\C:\Users\MSI\AppData\Local\Temp\8d68c74aae15bf3a73a8\d.sock
+[NX Daemon Server] - 2024-07-27T04:53:05.618Z - [WATCHER]: Subscribed to changes within: F:\astro\bottom-ile (native)
+[NX Daemon Server] - 2024-07-27T04:53:05.621Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-27T04:53:05.624Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-27T04:53:05.624Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-27T04:53:05.627Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-07-27T04:53:05.628Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-07-27T04:53:05.628Z - Handled GLOB. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-07-27T04:53:06.742Z - [REQUEST]: Responding to the client. handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-07-27T04:53:06.743Z - Done responding to the client handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-07-27T04:53:06.743Z - Handled GET_NX_WORKSPACE_FILES. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-07-27T04:53:06.877Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-27T04:53:34.203Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-27T04:53:34.206Z - [WATCHER]: .yarn/install-state.gz was modified
+[NX Daemon Server] - 2024-07-27T04:53:34.715Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-27T04:53:34.715Z - [REQUEST]: .yarn/install-state.gz
+[NX Daemon Server] - 2024-07-27T04:53:34.715Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-27T04:53:34.721Z - Time taken for 'loadNxPlugins' 403.65009999999893ms
+[NX Daemon Server] - 2024-07-27T04:53:35.204Z - Time taken for 'build-project-configs' 453.4054999999971ms
+[NX Daemon Server] - 2024-07-27T04:53:35.238Z - Time taken for 'total execution time for createProjectGraph()' 38.24150000000009ms
+[NX Daemon Server] - 2024-07-27T05:21:42.877Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-27T05:21:42.882Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (sources)
+[NX Daemon Server] - 2024-07-27T05:21:42.882Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (outputs)
+[NX Daemon Server] - 2024-07-27T05:21:42.882Z - Server stopped because: "LOCK_FILES_CHANGED"

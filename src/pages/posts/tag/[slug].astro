@@ -1,0 +1,39 @@
+---
+import PostInfo from '../../../components/blog/PostInfo.astro'
+import Layout from '../../../layouts/Layout.astro'
+import { getPostsByTag } from '../../../lib/notion/client'
+
+const tags = {
+  novel: '小说',
+  poem: '诗歌',
+  else: '其他',
+}
+export async function getStaticPaths() {
+  return [
+    { params: { slug: 'novel' } },
+    { params: { slug: 'poem' } },
+    { params: { slug: 'else' } },
+  ]
+}
+
+const slug = Astro.params.slug as keyof typeof tags
+
+const posts = await getPostsByTag(tags[slug])
+---
+
+<Layout description="All Posts" path="/">
+  <div slot="main">
+    <h1>{posts.length ? tags[slug] : '暂无内容'}</h1>
+    <div class="post-infos">
+      {posts && posts.map((p) => <PostInfo post={p} />)}
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .post-infos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+</style>

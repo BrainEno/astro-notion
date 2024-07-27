@@ -408,7 +408,7 @@ export async function downloadFile(url: URL) {
     const writeStream = createWriteStream(filepath)
     // const rotate = sharp().rotate()
 
-    let stream = res.data
+    const stream = res.data
 
     // if (res.headers['content-type'] === 'image/jpeg') {
     //     stream = stream.pipe(rotate)

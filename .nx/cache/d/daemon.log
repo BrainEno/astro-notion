@@ -1,0 +1,190 @@
+[NX Daemon Server] - 2024-06-02T08:16:57.719Z - Started listening on: \\.\pipe\nx\C:\Users\MSI\AppData\Local\Temp\8d68c74aae15bf3a73a8\d.sock
+[NX Daemon Server] - 2024-06-02T08:16:57.767Z - [WATCHER]: Subscribed to changes within: F:\astro\bottom-ile (native)
+[NX Daemon Server] - 2024-06-02T08:16:57.769Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-02T08:16:57.771Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-06-02T08:16:57.773Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-02T08:16:57.776Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-06-02T08:16:57.942Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-02T08:16:57.961Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-02T08:16:57.961Z - [REQUEST]: 
+Error reading 'F:\astro\bottom-ile\.nx\cache\file-map.json'. Continue the process without the cache.
+Error: InvalidSymbol in F:\astro\bottom-ile\.nx\cache\file-map.json at 82:1
+  80 |         {
+  81 |           "file": "package.json",
+> 82 | <<<<<<< HEAD
+     | ^^^^^^^
+  83 |           "hash": "8606821325352772162",
+  84 | =======
+  85 |           "hash": "14661559728729971984",
+
+    at parseJson (F:\astro\bottom-ile\node_modules\nx\src\utils\json.js:27:15)
+    at readJsonFile (F:\astro\bottom-ile\node_modules\nx\src\utils\fileutils.js:22:37)
+    at readFileMapCache (F:\astro\bottom-ile\node_modules\nx\src\project-graph\nx-deps-cache.js:42:49)
+    at createAndSerializeProjectGraph (F:\astro\bottom-ile\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:229:274)
+    at processFilesAndCreateAndSerializeProjectGraph (F:\astro\bottom-ile\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:160:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCachedSerializedProjectGraphPromise (F:\astro\bottom-ile\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:46:16)
+    at async handleRequestProjectGraph (F:\astro\bottom-ile\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24)
+    at async handleResult (F:\astro\bottom-ile\node_modules\nx\src\daemon\server\server.js:107:16)
+    at async handleMessage (F:\astro\bottom-ile\node_modules\nx\src\daemon\server\server.js:78:9)
+[NX Daemon Server] - 2024-06-02T08:17:03.798Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-06-02T08:17:03.800Z - Time taken for 'total for creating and serializing project graph' 6022.6587ms
+[NX Daemon Server] - 2024-06-02T08:17:03.801Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-06-02T08:17:03.801Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 6022. Response time: 3.
+[NX Daemon Server] - 2024-06-02T08:17:05.598Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-06-02T08:17:05.598Z - Time taken for 'Load Nx Plugin: F:\astro\bottom-ile\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.6451999999990221ms
+[NX Daemon Server] - 2024-06-02T08:17:05.598Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-06-02T08:17:05.598Z - Handled HASH_TASKS. Handling time: 11. Response time: 0.
+[NX Daemon Server] - 2024-06-02T08:17:05.602Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-02T08:18:16.192Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:18:16.281Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:18:21.239Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-02T08:18:21.240Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-02T08:18:21.241Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-02T08:18:21.243Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-06-02T08:18:21.244Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-06-02T08:18:21.244Z - Time taken for 'total for creating and serializing project graph' 1.209499999997206ms
+[NX Daemon Server] - 2024-06-02T08:18:21.245Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-06-02T08:18:21.245Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-06-02T08:18:21.438Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-06-02T08:18:21.439Z - Time taken for 'Load Nx Plugin: F:\astro\bottom-ile\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.42960000000311993ms
+[NX Daemon Server] - 2024-06-02T08:18:21.439Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-06-02T08:18:21.439Z - Handled HASH_TASKS. Handling time: 2. Response time: 1.
+[NX Daemon Server] - 2024-06-02T08:18:21.901Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-02T08:19:36.816Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:19:36.873Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:20:08.275Z - [WATCHER]: src/pages/index.astro was modified
+[NX Daemon Server] - 2024-06-02T08:20:08.324Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:20:08.379Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:20:08.380Z - [WATCHER]: src/pages/index.astro was modified
+[NX Daemon Server] - 2024-06-02T08:20:08.433Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-02T08:20:08.433Z - [REQUEST]: src/pages/index.astro
+[NX Daemon Server] - 2024-06-02T08:20:08.433Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-02T08:20:08.465Z - Time taken for 'Load Nx Plugin: F:\astro\bottom-ile\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.4429999999993015ms
+[NX Daemon Server] - 2024-06-02T08:20:10.442Z - [WATCHER]: src/pages/index.astro was modified
+[NX Daemon Server] - 2024-06-02T08:20:10.445Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:20:10.655Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-02T08:20:10.656Z - [REQUEST]: src/pages/index.astro
+[NX Daemon Server] - 2024-06-02T08:20:10.656Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-02T08:20:10.715Z - Time taken for 'Load Nx Plugin: F:\astro\bottom-ile\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.3022000000055414ms
+[NX Daemon Server] - 2024-06-02T08:20:12.066Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:20:12.069Z - [WATCHER]: src/components/blog/PostFeaturedImage.astro was modified
+[NX Daemon Server] - 2024-06-02T08:20:12.490Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-02T08:20:12.490Z - [REQUEST]: src/components/blog/PostFeaturedImage.astro
+[NX Daemon Server] - 2024-06-02T08:20:12.490Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-02T08:20:12.529Z - Time taken for 'Load Nx Plugin: F:\astro\bottom-ile\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.4800999999861233ms
+[NX Daemon Server] - 2024-06-02T08:20:15.072Z - [WATCHER]: src/components/blog/PostBody.astro was modified
+[NX Daemon Server] - 2024-06-02T08:20:15.111Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:20:15.171Z - [WATCHER]: src/components/blog/PostBody.astro was modified
+[NX Daemon Server] - 2024-06-02T08:20:15.171Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:20:15.912Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-02T08:20:15.912Z - [REQUEST]: src/components/blog/PostBody.astro
+[NX Daemon Server] - 2024-06-02T08:20:15.912Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-02T08:20:15.942Z - Time taken for 'Load Nx Plugin: F:\astro\bottom-ile\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.563800000003539ms
+[NX Daemon Server] - 2024-06-02T08:20:27.258Z - [WATCHER]: src/components/blog/PostRelativeLink.astro was modified
+[NX Daemon Server] - 2024-06-02T08:20:27.259Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:20:28.873Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-02T08:20:28.873Z - [REQUEST]: src/components/blog/PostRelativeLink.astro
+[NX Daemon Server] - 2024-06-02T08:20:28.873Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-02T08:20:28.927Z - Time taken for 'Load Nx Plugin: F:\astro\bottom-ile\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 10.684800000017276ms
+[NX Daemon Server] - 2024-06-02T08:20:37.799Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:20:37.803Z - [WATCHER]: src/components/blog/PostRelativeLink.astro was modified
+[NX Daemon Server] - 2024-06-02T08:20:41.021Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-02T08:20:41.022Z - [REQUEST]: src/components/blog/PostRelativeLink.astro
+[NX Daemon Server] - 2024-06-02T08:20:41.022Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-02T08:20:41.115Z - Time taken for 'Load Nx Plugin: F:\astro\bottom-ile\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 2.0258999999787193ms
+[NX Daemon Server] - 2024-06-02T08:20:41.638Z - [WATCHER]: src/components/blog/PostTags.astro was modified
+[NX Daemon Server] - 2024-06-02T08:20:41.639Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:20:48.041Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-02T08:20:48.042Z - [REQUEST]: src/components/blog/PostTags.astro
+[NX Daemon Server] - 2024-06-02T08:20:48.042Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-02T08:20:48.089Z - Time taken for 'Load Nx Plugin: F:\astro\bottom-ile\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.6635999999998603ms
+[NX Daemon Server] - 2024-06-02T08:20:52.916Z - [WATCHER]: src/components/blog/Card.astro was modified
+[NX Daemon Server] - 2024-06-02T08:20:52.916Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:20:59.318Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-02T08:20:59.318Z - [REQUEST]: src/components/blog/Card.astro
+[NX Daemon Server] - 2024-06-02T08:20:59.318Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-02T08:20:59.342Z - Time taken for 'Load Nx Plugin: F:\astro\bottom-ile\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.4103999999933876ms
+[NX Daemon Server] - 2024-06-02T08:21:49.999Z - [WATCHER]: src/components/blog/PostInfo.astro was modified
+[NX Daemon Server] - 2024-06-02T08:21:49.999Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:21:56.404Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-02T08:21:56.405Z - [REQUEST]: src/components/blog/PostInfo.astro
+[NX Daemon Server] - 2024-06-02T08:21:56.405Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-02T08:21:56.447Z - Time taken for 'Load Nx Plugin: F:\astro\bottom-ile\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.8917999999830499ms
+[NX Daemon Server] - 2024-06-02T08:22:03.354Z - [WATCHER]: src/components/blog/PostInfo.astro was modified
+[NX Daemon Server] - 2024-06-02T08:22:03.355Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:22:09.773Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-02T08:22:09.774Z - [REQUEST]: src/components/blog/PostInfo.astro
+[NX Daemon Server] - 2024-06-02T08:22:09.774Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-02T08:22:09.803Z - Time taken for 'Load Nx Plugin: F:\astro\bottom-ile\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.6501000000280328ms
+[NX Daemon Server] - 2024-06-02T08:22:43.582Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:22:43.584Z - [WATCHER]: src/components/blog/PostInfo.astro was modified
+[NX Daemon Server] - 2024-06-02T08:22:50.004Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-02T08:22:50.004Z - [REQUEST]: src/components/blog/PostInfo.astro
+[NX Daemon Server] - 2024-06-02T08:22:50.004Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-02T08:22:50.037Z - Time taken for 'Load Nx Plugin: F:\astro\bottom-ile\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.4415999999619089ms
+[NX Daemon Server] - 2024-06-02T08:23:08.290Z - [WATCHER]: src/components/blog/PostInfo.astro was modified
+[NX Daemon Server] - 2024-06-02T08:23:08.290Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:23:14.692Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-02T08:23:14.692Z - [REQUEST]: src/components/blog/PostInfo.astro
+[NX Daemon Server] - 2024-06-02T08:23:14.692Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-02T08:23:14.725Z - Time taken for 'Load Nx Plugin: F:\astro\bottom-ile\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.4986000000499189ms
+[NX Daemon Server] - 2024-06-02T08:24:12.176Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:24:12.177Z - [WATCHER]: src/components/blog/PostInfo.astro was modified
+[NX Daemon Server] - 2024-06-02T08:24:18.587Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-02T08:24:18.587Z - [REQUEST]: src/components/blog/PostInfo.astro
+[NX Daemon Server] - 2024-06-02T08:24:18.587Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-02T08:24:18.616Z - Time taken for 'Load Nx Plugin: F:\astro\bottom-ile\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.6408999999985099ms
+[NX Daemon Server] - 2024-06-02T08:27:18.839Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:27:18.840Z - [WATCHER]: src/components/blog/PostInfo.astro was modified
+[NX Daemon Server] - 2024-06-02T08:27:25.257Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-02T08:27:25.257Z - [REQUEST]: src/components/blog/PostInfo.astro
+[NX Daemon Server] - 2024-06-02T08:27:25.257Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-02T08:27:25.320Z - Time taken for 'Load Nx Plugin: F:\astro\bottom-ile\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.6829999999608845ms
+[NX Daemon Server] - 2024-06-02T08:28:17.790Z - [WATCHER]: src/components/blog/PostInfo.astro was modified
+[NX Daemon Server] - 2024-06-02T08:28:17.792Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:28:24.203Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-02T08:28:24.203Z - [REQUEST]: src/components/blog/PostInfo.astro
+[NX Daemon Server] - 2024-06-02T08:28:24.203Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-02T08:28:24.240Z - Time taken for 'Load Nx Plugin: F:\astro\bottom-ile\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.3418000000528991ms
+[NX Daemon Server] - 2024-06-02T08:30:46.512Z - [WATCHER]: src/components/blog/PostInfo.astro was modified
+[NX Daemon Server] - 2024-06-02T08:30:46.513Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:30:52.918Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-02T08:30:52.918Z - [REQUEST]: src/components/blog/PostInfo.astro
+[NX Daemon Server] - 2024-06-02T08:30:52.918Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-02T08:30:52.949Z - Time taken for 'Load Nx Plugin: F:\astro\bottom-ile\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.1212999999988824ms
+[NX Daemon Server] - 2024-06-02T08:31:04.896Z - [WATCHER]: src/components/blog/PostInfo.astro was modified
+[NX Daemon Server] - 2024-06-02T08:31:04.898Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:31:11.299Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-02T08:31:11.299Z - [REQUEST]: src/components/blog/PostInfo.astro
+[NX Daemon Server] - 2024-06-02T08:31:11.299Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-02T08:31:11.324Z - Time taken for 'Load Nx Plugin: F:\astro\bottom-ile\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.3618000000715256ms
+[NX Daemon Server] - 2024-06-02T08:32:21.454Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:32:21.455Z - [WATCHER]: src/components/blog/PostInfo.astro was modified
+[NX Daemon Server] - 2024-06-02T08:32:26.320Z - [WATCHER]: src/components/blog/PostInfo.astro was modified
+[NX Daemon Server] - 2024-06-02T08:32:26.320Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:32:27.858Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-02T08:32:27.858Z - [REQUEST]: src/components/blog/PostInfo.astro
+[NX Daemon Server] - 2024-06-02T08:32:27.858Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-02T08:32:27.905Z - Time taken for 'Load Nx Plugin: F:\astro\bottom-ile\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.9339000000618398ms
+[NX Daemon Server] - 2024-06-02T08:32:37.665Z - [WATCHER]: src/components/blog/PostInfo.astro was modified
+[NX Daemon Server] - 2024-06-02T08:32:37.667Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:32:44.075Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-02T08:32:44.075Z - [REQUEST]: src/components/blog/PostInfo.astro
+[NX Daemon Server] - 2024-06-02T08:32:44.075Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-02T08:32:44.101Z - Time taken for 'Load Nx Plugin: F:\astro\bottom-ile\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.3434999999590218ms
+[NX Daemon Server] - 2024-06-02T08:34:24.633Z - [WATCHER]: src/components/blog/PostInfo.astro was modified
+[NX Daemon Server] - 2024-06-02T08:34:24.634Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:34:31.044Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-02T08:34:31.044Z - [REQUEST]: src/components/blog/PostInfo.astro
+[NX Daemon Server] - 2024-06-02T08:34:31.044Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-02T08:34:31.106Z - Time taken for 'Load Nx Plugin: F:\astro\bottom-ile\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.7302000001072884ms
+[NX Daemon Server] - 2024-06-02T08:42:24.709Z - [WATCHER]: src/components/blog/Card.astro was modified
+[NX Daemon Server] - 2024-06-02T08:42:24.711Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-02T08:42:31.117Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-02T08:42:31.118Z - [REQUEST]: src/components/blog/Card.astro
+[NX Daemon Server] - 2024-06-02T08:42:31.118Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-02T08:42:31.165Z - Time taken for 'Load Nx Plugin: F:\astro\bottom-ile\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.204399999929592ms
+[NX Daemon Server] - 2024-06-02T13:56:35.306Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (sources)
+[NX Daemon Server] - 2024-06-02T13:56:36.180Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (outputs)
+[NX Daemon Server] - 2024-06-02T13:56:36.180Z - Server stopped because: "10800000ms of inactivity"

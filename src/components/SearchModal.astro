@@ -94,7 +94,7 @@
     font-weight: bold;
   }
   div.search-result :global(div.search-result-description) {
-    margin: 0 0 0.1rem;
+    margin: 0.2rem 0 0.2rem;
     color: var(--fg);
     font-size: 0.9rem;
     line-height: 1.2rem;
@@ -131,6 +131,7 @@
     function handleKeydown(event: KeyboardEvent) {
       if (event.keyCode === 13) {
         // Enter
+
         select()
       } else if (event.keyCode === 27) {
         // ESC
@@ -142,7 +143,7 @@
         // Down
         selectDown(event)
       } else {
-        searchAndRender()
+        return
       }
     }
 
@@ -208,10 +209,14 @@
       element!.closest('li')!.classList.add('selected')
     }
 
+    const inputElement = document.querySelector(
+      '.search-prompt input'
+    ) as HTMLInputElement
+    inputElement.addEventListener('input', searchAndRender)
+    inputElement.addEventListener('compositionend', searchAndRender)
+
     function searchAndRender() {
-      const text = (
-        document.querySelector('.search-prompt input') as HTMLInputElement
-      ).value.trim()
+      const text = inputElement?.value?.trim()
 
       if (text !== '') {
         const results = search(text)
@@ -224,9 +229,14 @@
     }
 
     function search(query: string) {
+      console.log('query is :', query)
       const results: FeedItem[] = []
       feedItems.forEach((item) => {
-        if (item.title.includes(query) || item?.description?.includes(query)) {
+        if (
+          item.title.startsWith(query) ||
+          item.title.includes(query) ||
+          item?.description?.includes(query)
+        ) {
           results.push(item)
         }
       })

@@ -1,6 +1,6 @@
 {
   "version": "6.0",
-  "nxVersion": "19.1.1",
+  "nxVersion": "19.5.3",
   "deps": {
     "@astrojs/check": "^0.7.0",
     "@astrojs/react": "^3.4.0",
@@ -48,8 +48,16 @@
     "projectFileMap": {
       "bottom-think": [
         {
+          "file": ".editorconfig",
+          "hash": "11525873501642599925"
+        },
+        {
           "file": ".eslintrc.json",
           "hash": "5280890079959110311"
+        },
+        {
+          "file": ".gitattributes",
+          "hash": "5816063049553364052"
         },
         {
           "file": ".nxignore",
@@ -72,6 +80,14 @@
           "hash": "1679638439007128934"
         },
         {
+          "file": ".yarn/install-state.gz",
+          "hash": "7600373927411095431"
+        },
+        {
+          "file": ".yarnrc.yml",
+          "hash": "2886304410880062839"
+        },
+        {
           "file": "README.md",
           "hash": "18271660719621945968"
         },
@@ -81,8 +97,18 @@
         },
         {
           "file": "package.json",
-          "hash": "3230617694787121966",
+          "hash": "17462624781676976528",
           "deps": [
+            "npm:@eslint/eslintrc",
+            "npm:@types/async-retry",
+            "npm:@types/katex",
+            "npm:@types/prismjs",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:@typescript-eslint/typescript-estree",
+            "npm:cli-progress",
+            "npm:eslint",
+            "npm:eslint-plugin-astro",
             "npm:@astrojs/check",
             "npm:@astrojs/react",
             "npm:@astrojs/rss",
@@ -110,16 +136,7 @@
             "npm:prismjs",
             "npm:react",
             "npm:react-dom",
-            "npm:typescript",
-            "npm:@eslint/eslintrc",
-            "npm:@types/async-retry",
-            "npm:@types/katex",
-            "npm:@types/prismjs",
-            "npm:@typescript-eslint/eslint-plugin",
-            "npm:@typescript-eslint/parser",
-            "npm:@typescript-eslint/typescript-estree",
-            "npm:cli-progress",
-            "npm:eslint-plugin-astro"
+            "npm:typescript"
           ]
         },
         {
@@ -172,7 +189,7 @@
         },
         {
           "file": "src/components/Header.astro",
-          "hash": "7522411715656621928"
+          "hash": "2724420392418193300"
         },
         {
           "file": "src/components/HeaderLink.astro",
@@ -196,11 +213,11 @@
         },
         {
           "file": "src/components/SearchModal.astro",
-          "hash": "17840037024031011529"
+          "hash": "15097736230871819862"
         },
         {
           "file": "src/components/blog/Card.astro",
-          "hash": "15035535817554347771"
+          "hash": "17646897089042466064"
         },
         {
           "file": "src/components/blog/PostBody.astro",
@@ -216,7 +233,7 @@
         },
         {
           "file": "src/components/blog/PostInfo.astro",
-          "hash": "756914092638302392"
+          "hash": "5275594648788168673"
         },
         {
           "file": "src/components/blog/PostRelativeLink.astro",
@@ -224,11 +241,11 @@
         },
         {
           "file": "src/components/blog/PostTags.astro",
-          "hash": "5095289235982351900"
+          "hash": "13243443943441526428"
         },
         {
           "file": "src/components/blog/PostTitle.astro",
-          "hash": "10921307402883559572"
+          "hash": "6555529374471525429"
         },
         {
           "file": "src/components/notion-blocks/Bookmark.astro",
@@ -352,7 +369,7 @@
         },
         {
           "file": "src/layouts/Layout.astro",
-          "hash": "12283923167828672393"
+          "hash": "2944752200097732160"
         },
         {
           "file": "src/lib/blog-helpers.ts",
@@ -364,7 +381,7 @@
         },
         {
           "file": "src/lib/notion/client.ts",
-          "hash": "2705769345946264042"
+          "hash": "1319018237946496259"
         },
         {
           "file": "src/lib/notion/request-params.ts",
@@ -388,7 +405,7 @@
         },
         {
           "file": "src/pages/index.astro",
-          "hash": "11524967138914633464"
+          "hash": "10615305048714582781"
         },
         {
           "file": "src/pages/posts/[slug].astro",
@@ -420,7 +437,7 @@
         },
         {
           "file": "yarn.lock",
-          "hash": "4905500544155177980"
+          "hash": "4191603028743856285"
         }
       ]
     }

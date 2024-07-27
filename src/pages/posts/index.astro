@@ -1,0 +1,24 @@
+---
+import PostInfo from '../../components/blog/PostInfo.astro'
+import Layout from '../../layouts/Layout.astro'
+import { getPosts } from '../../lib/notion/client'
+
+const posts = await getPosts(9)
+---
+
+<Layout description="All Posts" path="/">
+  <div slot="main">
+    <h1>全部</h1>
+    <div class="post-infos">
+      {posts && posts.map((p) => <PostInfo post={p} />)}
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .post-infos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+</style>

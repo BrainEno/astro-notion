@@ -1,6 +1,7 @@
 ---
 import HeaderLink from './HeaderLink.astro'
 import SearchButton from './SearchButton.astro'
+import { Icon } from 'astro-icon/components'
 
 interface Props {
   siteTitle: string
@@ -9,24 +10,30 @@ interface Props {
 
 const links = [
   { title: 'Home', href: '/' },
-  { title: 'All', href: '/all' },
-  { title: 'Novel', href: '/novel' },
-  { title: 'Poems', href: '/pomes' },
+  { title: 'All', href: '/posts' },
+  { title: 'Novel', href: '/posts/tag/novel' },
+  { title: 'Poems', href: '/posts/tag/poem' },
+  { title: 'Else', href: '/posts/tag/else' },
 ]
 
 const { customIconURL, siteTitle } = Astro.props
 ---
 
 <header class="header">
-  <div class="icon">
+  <a href="/" class="icon">
     {customIconURL && <img src={customIconURL} alt="icon" />}
     <span class="icon-text">{siteTitle}</span>
-  </div>
+  </a>
   <ul class="header-links">
     {links.map((link) => <HeaderLink title={link.title} href={link.href} />)}
   </ul>
-  <div class="search">
-    <SearchButton />
+  <div class="icons">
+    <div class="search">
+      <SearchButton />
+    </div>
+    <div class="menu">
+      <button class="menu-button"><Icon name="hugeicons:menu-02" /></button>
+    </div>
   </div>
 </header>
 <style>
@@ -74,7 +81,7 @@ const { customIconURL, siteTitle } = Astro.props
     height: 40px;
   }
 
-  .header > .header-links {
+  .header .header-links {
     flex: 1;
     display: flex;
     flex-direction: row;
@@ -82,11 +89,42 @@ const { customIconURL, siteTitle } = Astro.props
     align-items: center;
   }
 
-  .header > .search {
+  .header .search {
     width: 200px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
+  }
+
+  .header .menu {
+    display: none;
+  }
+
+  @media screen and (max-width: 680px) {
+    .header {
+      justify-content: space-between;
+    }
+    .header > .icon {
+      width: max-content;
+    }
+    .header > .icon > .icon-text {
+      display: none;
+    }
+
+    .header .header-links {
+      display: none;
+    }
+
+    .header .menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .header .menu .menu-button {
+      color: black;
+      background-color: aqua;
+    }
   }
 </style>
