@@ -32,6 +32,15 @@ import { Icon } from 'astro-icon/components'
   [astro-icon='octicon:search-24'] {
     color: var(--fg);
   }
+
+  @media screen and (max-width: 700px) {
+    .search-button {
+      width: 50px;
+    }
+    .search-button > span {
+      display: none;
+    }
+  }
 </style>
 
 <script>

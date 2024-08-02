@@ -69,7 +69,7 @@ const { post } = Astro.props
     position: relative;
   }
 
-  .post-info-container .post-bg-container {
+  .post-bg-container {
     width: 350px;
     height: 350px;
     object-fit: cover;
@@ -144,5 +144,24 @@ const { post } = Astro.props
     overflow: hidden;
     font-size: 16px;
     font-weight: 500;
+  }
+
+  @media screen and (max-width: 700px) {
+    .post-info-container,
+    .post-bg-container,
+    .description-text {
+      width: 300px;
+    }
+
+    .post-info-container {
+      height: 540px;
+    }
+
+    .post-bg-container {
+      height: 300px;
+    }
+    .tag {
+      top: 35px;
+    }
   }
 </style>

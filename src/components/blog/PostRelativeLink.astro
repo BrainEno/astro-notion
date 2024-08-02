@@ -15,21 +15,21 @@ const { prevPost, nextPost } = Astro.props
     {
       prevPost && (
         <a href={getPostLink(prevPost.Slug)} class="colored">
-          <div>Previous</div>
-          <div>{prevPost.Title}</div>
+          <div>上一篇</div>
+          <div class="post-title">{prevPost.Title}</div>
         </a>
       )
     }
   </div>
   <div>
-    <a href={getNavLink('/')} class="text">Back To Home</a>
+    <a href={getNavLink('/')} class="text">返回首页</a>
   </div>
   <div>
     {
       nextPost && (
         <a href={getPostLink(nextPost.Slug)} class="colored">
-          <div>Next</div>
-          <div>{nextPost.Title}</div>
+          <div>下一篇</div>
+          <div class="post-title">{nextPost.Title}</div>
         </a>
       )
     }
@@ -80,5 +80,23 @@ const { prevPost, nextPost } = Astro.props
     text-align: center;
     font-size: 1rem;
     font-weight: bold;
+  }
+
+  div.post-relative-link .post-title {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 20px;
+  }
+  @media screen and (max-width: 700px) {
+    div.post-relative-link > div > a {
+      font-size: 0.5rem;
+    }
+    div.post-relative-link > div > a.colored > div:nth-child(2) {
+      font-size: 0.85rem;
+    }
+    div.post-relative-link > div > a.colored > div:nth-child(2) {
+      font-size: 0.8rem;
+    }
   }
 </style>

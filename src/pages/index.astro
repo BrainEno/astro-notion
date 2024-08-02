@@ -39,4 +39,14 @@ const [rankedPosts, recentPosts] = await Promise.all([
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+
+  @media screen and (max-width: 700px) {
+    .blog-container,
+    .post-infos {
+      display: flex;
+      flex-direction: column;
+      width: 80vw;
+      padding: 0px;
+    }
+  }
 </style>

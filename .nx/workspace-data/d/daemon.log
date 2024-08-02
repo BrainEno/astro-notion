@@ -72,3 +72,104 @@
 [NX Daemon Server] - 2024-07-27T05:21:42.882Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (sources)
 [NX Daemon Server] - 2024-07-27T05:21:42.882Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (outputs)
 [NX Daemon Server] - 2024-07-27T05:21:42.882Z - Server stopped because: "LOCK_FILES_CHANGED"
+[NX Daemon Server] - 2024-07-31T07:01:11.722Z - Started listening on: \\.\pipe\nx\C:\Users\MSI\AppData\Local\Temp\8d68c74aae15bf3a73a8\d.sock
+[NX Daemon Server] - 2024-07-31T07:01:11.748Z - [WATCHER]: Subscribed to changes within: F:\astro\bottom-ile (native)
+[NX Daemon Server] - 2024-07-31T07:01:11.750Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-31T07:01:11.751Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-31T07:01:11.759Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-31T07:01:11.761Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-31T07:01:12.623Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-31T07:01:12.623Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-31T07:01:12.623Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-31T07:01:12.630Z - Time taken for 'loadNxPlugins' 828.4821000000002ms
+[NX Daemon Server] - 2024-07-31T07:01:24.327Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-31T07:01:34.833Z - Time taken for 'build-project-configs' 22171.731099999997ms
+[NX Daemon Server] - 2024-07-31T07:01:34.918Z - [REQUEST]: Responding to the client. project-graph
+Error: This socket has been ended by the other party
+    at genericNodeError (node:internal/errors:984:15)
+    at wrappedFn (node:internal/errors:538:14)
+    at Socket.writeAfterFIN [as write] (node:net:561:14)
+    at F:\astro\bottom-ile\node_modules\nx\src\daemon\server\shutdown-utils.js:64:16
+    at new Promise (<anonymous>)
+    at respondToClient (F:\astro\bottom-ile\node_modules\nx\src\daemon\server\shutdown-utils.js:60:12)
+    at handleResult (F:\astro\bottom-ile\node_modules\nx\src\daemon\server\server.js:146:52)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleMessage (F:\astro\bottom-ile\node_modules\nx\src\daemon\server\server.js:93:9)
+    at async F:\astro\bottom-ile\node_modules\nx\src\daemon\server\server.js:59:9 {
+  code: 'EPIPE'
+}
+[NX Daemon Server] - 2024-07-31T07:01:34.921Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-07-31T07:01:34.921Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 23158. Response time: 3.
+[NX Daemon Server] - 2024-07-31T07:01:34.921Z - Time taken for 'total for creating and serializing project graph' 23157.1537ms
+[NX Daemon Server] - 2024-07-31T07:01:39.061Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-31T07:01:39.061Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-31T07:01:39.062Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-31T07:01:39.064Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-31T07:01:39.065Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-07-31T07:01:39.065Z - Time taken for 'total for creating and serializing project graph' 0.5190000000002328ms
+[NX Daemon Server] - 2024-07-31T07:01:39.066Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-07-31T07:01:39.066Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-07-31T07:01:41.598Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-07-31T07:01:41.598Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-07-31T07:01:41.598Z - Handled HASH_TASKS. Handling time: 10. Response time: 0.
+[NX Daemon Server] - 2024-07-31T07:01:47.175Z - [REQUEST]: Responding to the client. PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-07-31T07:01:47.176Z - Done responding to the client PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-07-31T07:01:47.176Z - Handled PROCESS_IN_BACKGROUND. Handling time: 315. Response time: 1.
+[NX Daemon Server] - 2024-07-31T07:01:47.177Z - Uploading file artifacts
+[NX Daemon Server] - 2024-07-31T07:01:47.177Z - Done uploading file artifacts
+[NX Daemon Server] - 2024-07-31T07:01:47.177Z - Sending EndRun request
+[NX Daemon Server] - 2024-07-31T07:01:47.313Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-31T07:01:53.369Z - Error when sending EndRun
+Error: Invalid Nx Cloud access token. Token: 66586cbfcd2db153653c806d
+    at Timeout._onTimeout (F:\astro\bottom-ile\node_modules\.cache\nx\cloud\2407.29.8.hotfix2\lib\daemon\process-run-end.js:26:6960)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[NX Daemon Server] - 2024-07-31T07:04:47.983Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-31T07:04:47.984Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-31T07:04:47.985Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-31T07:04:47.987Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-31T07:04:47.988Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-07-31T07:04:47.988Z - Time taken for 'total for creating and serializing project graph' 0.5815000000002328ms
+[NX Daemon Server] - 2024-07-31T07:04:47.988Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-07-31T07:04:47.988Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-31T07:04:48.143Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-07-31T07:04:48.143Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-07-31T07:04:48.143Z - Handled HASH_TASKS. Handling time: 2. Response time: 1.
+[NX Daemon Server] - 2024-07-31T07:04:48.502Z - [REQUEST]: Responding to the client. PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-07-31T07:04:48.502Z - Done responding to the client PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-07-31T07:04:48.502Z - Handled PROCESS_IN_BACKGROUND. Handling time: 114. Response time: 0.
+[NX Daemon Server] - 2024-07-31T07:04:48.502Z - Uploading file artifacts
+[NX Daemon Server] - 2024-07-31T07:04:48.502Z - Done uploading file artifacts
+[NX Daemon Server] - 2024-07-31T07:04:48.502Z - Sending EndRun request
+[NX Daemon Server] - 2024-07-31T07:04:48.512Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-31T07:04:51.149Z - Error when sending EndRun
+Error: Invalid Nx Cloud access token. Token: 66586cbfcd2db153653c806d
+    at Timeout._onTimeout (F:\astro\bottom-ile\node_modules\.cache\nx\cloud\2407.29.8.hotfix2\lib\daemon\process-run-end.js:26:6960)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[NX Daemon Server] - 2024-07-31T07:07:41.262Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-31T07:07:41.581Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (sources)
+[NX Daemon Server] - 2024-07-31T07:07:41.581Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (outputs)
+[NX Daemon Server] - 2024-07-31T07:07:41.581Z - Server stopped because: "LOCK_FILES_CHANGED"
+[NX Daemon Server] - 2024-07-31T07:07:57.730Z - Started listening on: \\.\pipe\nx\C:\Users\MSI\AppData\Local\Temp\8d68c74aae15bf3a73a8\d.sock
+[NX Daemon Server] - 2024-07-31T07:07:57.734Z - [WATCHER]: Subscribed to changes within: F:\astro\bottom-ile (native)
+[NX Daemon Server] - 2024-07-31T07:07:57.736Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-31T07:07:57.737Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-31T07:07:57.738Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-31T07:07:57.741Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-07-31T07:07:57.741Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-07-31T07:07:57.741Z - Handled GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-07-31T07:07:58.017Z - [REQUEST]: Responding to the client. handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-07-31T07:07:58.017Z - Done responding to the client handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-07-31T07:07:58.017Z - Handled GET_NX_WORKSPACE_FILES. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-31T07:07:58.089Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-31T07:07:58.225Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-31T07:07:58.227Z - [WATCHER]: .yarn/install-state.gz was modified
+[NX Daemon Server] - 2024-07-31T07:07:58.366Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-31T07:07:58.367Z - [REQUEST]: .yarn/install-state.gz
+[NX Daemon Server] - 2024-07-31T07:07:58.367Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-31T07:07:59.289Z - Time taken for 'loadNxPlugins' 30.535199999999918ms
+[NX Daemon Server] - 2024-07-31T07:09:17.269Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2024-07-31T07:09:17.269Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-31T07:09:17.350Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-31T07:09:17.350Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (sources)
+[NX Daemon Server] - 2024-07-31T07:09:17.350Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (outputs)
+[NX Daemon Server] - 2024-07-31T07:09:17.351Z - Server stopped because: "LOCK_FILES_CHANGED"

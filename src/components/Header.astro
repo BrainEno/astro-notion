@@ -32,7 +32,7 @@ const { customIconURL, siteTitle } = Astro.props
       <SearchButton />
     </div>
     <div class="menu">
-      <button class="menu-button"><Icon name="hugeicons:menu-02" /></button>
+      <button class="menu-button"><Icon name="hugeicons:menu-11" /></button>
     </div>
   </div>
 </header>
@@ -63,9 +63,9 @@ const { customIconURL, siteTitle } = Astro.props
   .header > .icon {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     cursor: pointer;
-    width: 200px;
+    min-width: 180px;
   }
 
   .header > .icon .icon-text {
@@ -101,10 +101,18 @@ const { customIconURL, siteTitle } = Astro.props
     display: none;
   }
 
-  @media screen and (max-width: 680px) {
+  .header .menu-button svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  @media screen and (max-width: 700px) {
     .header {
+      width: 100vw;
       justify-content: space-between;
+      padding: 0px 15px;
     }
+
     .header > .icon {
       width: max-content;
     }
@@ -124,7 +132,50 @@ const { customIconURL, siteTitle } = Astro.props
 
     .header .menu .menu-button {
       color: black;
-      background-color: aqua;
+      border: none;
+      background-color: transparent;
+    }
+
+    .header .icons {
+      width: max-content;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .header .search {
+      width: 50px;
+    }
+
+    .header .header-links {
+      padding-top: 50px;
+      height: 100vh;
+      width: 40vw;
+      position: absolute;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      top: 50px;
+      background-color: white;
+      border-right: 1px solid rgba(18, 18, 19, 0.144);
     }
   }
 </style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    function toggleMenu() {
+      if (screen.width > 700) return
+      const menu = document.querySelector('.header-links') as HTMLDivElement
+      if (menu.style.display === 'none') {
+        menu.style.display = 'flex'
+      } else {
+        menu.style.display = 'none'
+      }
+    }
+
+    const menuBtn = document.querySelector('.menu-button') as HTMLButtonElement
+
+    menuBtn.addEventListener('click', toggleMenu)
+  })
+</script>
