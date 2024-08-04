@@ -64,9 +64,9 @@ await Promise.all(
         try {
           if (!block) return
           url = new URL((block.Image || block.File)!.File!.Url)
-        } catch (err) {
+        } catch (err: unknown) {
           console.log('Invalid file URL')
-          return Promise.reject()
+          return Promise.reject(err)
         }
         return Promise.resolve(url)
       })
