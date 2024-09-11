@@ -53,9 +53,9 @@ const { post } = Astro.props
       {post.Excerpt}
     </div>
   </section>
-  <p class="author-text">
-    <a href={`/posts/${post.Slug}`}> Read More... </a>
-  </p>
+  <p>
+    <a class="link-text"href={`/posts/${post.Slug}`}> 阅读更多 </a>
+</p>
 </div>
 
 <style>
@@ -132,10 +132,15 @@ const { post } = Astro.props
   .author-text {
     font-size: 15px;
     font-weight: 400px;
-    color: gray;
+    color:rgba(128, 128, 128, 0.877);
     margin: 12px 0;
   }
 
+  .link-text{
+    color: rgb(93, 153, 223);
+    font-size: 15px;
+    font-weight: 400px;
+  }
   .description-text {
     width: 350px;
     display: -webkit-box;
