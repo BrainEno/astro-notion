@@ -1,4 +1,12 @@
-.red {background:rgb(255,59,48)}
-.blue {background:rgb(0,113,164)}
-.yellow{background:rgb(255,179,64)}
-.purple {background:rgb(175,82,222)}
+.red {
+  background: rgb(255, 59, 48);
+}
+.blue {
+  background: rgb(0, 113, 164);
+}
+.orange {
+  background: rgb(255, 179, 64);
+}
+.purple {
+  background: rgb(175, 82, 222);
+}

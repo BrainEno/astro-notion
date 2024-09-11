@@ -52,12 +52,13 @@
   }
   @media (max-width: 640px) {
     div.search-modal {
-      top: 70px;
+      top: 130px;
       left: 0;
       right: 0;
+      bottom: 70px;
       width: 100vw;
       margin: 0;
-      height: calc(100vh - 70px);
+      height: calc(100vh - 200px);
     }
   }
 
@@ -110,15 +111,22 @@
 </style>
 
 <script>
-  import type { FeedItem } from '../lib/interfaces'
+import type { FeedItem } from '../lib/interfaces'
 
   document.addEventListener('DOMContentLoaded', async () => {
     let feedItems: FeedItem[] = []
     let fetched = false
 
     async function openModal() {
+     
       ;(
         document.querySelector('.search-modal-container') as HTMLDivElement
+      ).style.display = 'block'
+      ;(
+        document.querySelector('.search-modal') as HTMLDivElement
+      ).style.display = 'block'
+      ;(
+        document.querySelector('.overlay') as HTMLDivElement
       ).style.display = 'block'
       ;(
         document.querySelector('.search-prompt input') as HTMLInputElement
@@ -130,16 +138,26 @@
       searchAndRender()
     }
 
-    function closeModal() {
+    function closeModal() { 
+
+      // ;( document.querySelector('.search-prompt input') as HTMLInputElement
+      // ).blur()
+
       ;(
         document.querySelector('.search-modal-container') as HTMLDivElement
       ).style.display = 'none'
+      ;(
+        document.querySelector('.search-modal') as HTMLDivElement
+      ).style.display = 'none'
+      ;(
+        document.querySelector('.overlay') as HTMLDivElement
+      ).style.display = 'none'
+       
     }
 
     function handleKeydown(event: KeyboardEvent) {
       if (event.keyCode === 13) {
         // Enter
-
         select()
       } else if (event.keyCode === 27) {
         // ESC
@@ -237,7 +255,7 @@
     }
 
     function search(query: string) {
-      console.log('query is :', query)
+      // console.log('query is :', query)
       const results: FeedItem[] = []
       feedItems.forEach((item) => {
         if (
@@ -312,14 +330,25 @@
       fetched = true
     }
 
-    Array.from(document.getElementsByClassName('open-search-modal')).forEach(
-      (element) => {
-        element.addEventListener('click', openModal)
-      }
-    )
+   
+
     document
       .getElementsByClassName('overlay')[0]
       .addEventListener('click', closeModal)
     document.addEventListener('keydown', handleKeydown)
-  })
+    ;
+    
+    const modal=document.querySelector('.search-modal-container') as HTMLDivElement
+    
+    async function toggleModal(){
+       if(modal.style.display==='block'){
+        closeModal()
+      }else if(!modal.style.display||modal.style.display==='none'){
+        await openModal()
+      }
+    }
+
+    (document.querySelector('.search-button') as HTMLButtonElement).addEventListener('click', toggleModal)
+  
+   })
 </script>

@@ -346,3 +346,25 @@ Error: Invalid Nx Cloud access token. Token: 66586cbfcd2db153653c806d
 [NX Daemon Server] - 2024-08-04T08:47:39.438Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (sources)
 [NX Daemon Server] - 2024-08-04T08:47:39.438Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (outputs)
 [NX Daemon Server] - 2024-08-04T08:47:39.438Z - Server stopped because: "10800000ms of inactivity"
+[NX Daemon Server] - 2024-09-08T05:23:59.912Z - Started listening on: \\.\pipe\nx\C:\Users\MSI\AppData\Local\Temp\8d68c74aae15bf3a73a8\d.sock
+[NX Daemon Server] - 2024-09-08T05:23:59.920Z - [WATCHER]: Subscribed to changes within: F:\astro\bottom-ile (native)
+[NX Daemon Server] - 2024-09-08T05:23:59.923Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-08T05:23:59.926Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-08T05:23:59.926Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-08T05:23:59.928Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-09-08T05:23:59.930Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-09-08T05:23:59.930Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-09-08T05:23:59.930Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-08T05:23:59.930Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (sources)
+[NX Daemon Server] - 2024-09-08T05:23:59.931Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (outputs)
+[NX Daemon Server] - 2024-09-11T03:38:53.178Z - Started listening on: \\.\pipe\nx\C:\Users\MSI\AppData\Local\Temp\8d68c74aae15bf3a73a8\d.sock
+[NX Daemon Server] - 2024-09-11T03:38:53.273Z - [WATCHER]: Subscribed to changes within: F:\astro\bottom-ile (native)
+[NX Daemon Server] - 2024-09-11T03:38:53.275Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-11T03:38:53.276Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-11T03:38:53.278Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-11T03:38:53.279Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-09-11T03:38:53.280Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-09-11T03:38:53.280Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-09-11T03:38:53.281Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-11T03:38:53.281Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (sources)
+[NX Daemon Server] - 2024-09-11T03:38:53.281Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (outputs)

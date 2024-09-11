@@ -12,7 +12,7 @@ const links = [
   { title: 'Home', href: '/' },
   { title: 'All', href: '/posts' },
   { title: 'Novel', href: '/posts/tag/novel' },
-  { title: 'Poems', href: '/posts/tag/poem' },
+  { title: 'Poem', href: '/posts/tag/poem' },
   { title: 'Else', href: '/posts/tag/else' },
 ]
 
@@ -108,7 +108,6 @@ const { customIconURL, siteTitle } = Astro.props
 
   @media screen and (max-width: 700px) {
     .header {
-      width: 100vw;
       justify-content: space-between;
       padding: 0px 15px;
     }
@@ -169,7 +168,7 @@ const { customIconURL, siteTitle } = Astro.props
       const menu = document.querySelector('.header-links') as HTMLDivElement
       if (menu.style.display === 'none') {
         menu.style.display = 'flex'
-      } else {
+      } else if(menu.style.display==='flex'){
         menu.style.display = 'none'
       }
     }
