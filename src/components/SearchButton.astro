@@ -3,7 +3,7 @@ import { Icon } from 'astro-icon/components'
 ---
 
 <button class="search-button open-search-modal" type="button">
-  <Icon name="octicon:search-24" />
+  <Icon name="octicon:search-24" class="open-search-modal" />
   <span>Search</span>
 </button>
 
@@ -15,10 +15,10 @@ import { Icon } from 'astro-icon/components'
     background-color: transparent;
     border: none;
     border-radius: var(--radius);
-    padding: 0.4rem 0.5rem;
     color: #777;
     font-size: 0.95rem;
     font-weight: bold;
+    padding: 7px 9px;
   }
   .search-button:hover {
     cursor: pointer;
@@ -27,7 +27,6 @@ import { Icon } from 'astro-icon/components'
   .search-button svg {
     width: 20px;
     height: 20px;
-    margin-right: 0.25rem;
   }
   [astro-icon='octicon:search-24'] {
     color: var(--fg);
@@ -35,7 +34,11 @@ import { Icon } from 'astro-icon/components'
 
   @media screen and (max-width: 700px) {
     .search-button {
-      width: 50px;
+      width: 32px;
+     padding: 0px 0px;
+    }
+    .search-button:hover {
+      background-color: transparent;
     }
     .search-button > span {
       display: none;
