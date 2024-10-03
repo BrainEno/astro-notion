@@ -1,6 +1,6 @@
 {
   "version": "6.0",
-  "nxVersion": "19.7.2",
+  "nxVersion": "19.8.3",
   "deps": {
     "@astrojs/check": "^0.9.3",
     "@astrojs/react": "^3.6.2",
@@ -11,9 +11,9 @@
     "@notionhq/client": "^2.2.15",
     "@nrwl/nx-cloud": "^19.1.0",
     "@supercharge/promise-pool": "^3.2.0",
-    "@types/react": "^18.3.5",
+    "@types/react": "^18.3.11",
     "@types/react-dom": "^18.3.0",
-    "astro": "^4.15.4",
+    "astro": "^4.15.10",
     "astro-icon": "^1.1.1",
     "async-retry": "^1.3.3",
     "axios": "^1.7.7",
@@ -21,27 +21,27 @@
     "exif-be-gone": "^1.5.1",
     "install": "^0.13.0",
     "katex": "^0.16.11",
-    "mermaid": "^11.2.0",
+    "mermaid": "^11.2.1",
     "metascraper": "^5.45.23",
     "metascraper-description": "^5.45.22",
     "metascraper-image": "^5.45.22",
     "metascraper-title": "^5.45.22",
     "node-fetch": "^3.3.2",
-    "nx": "^19.7.2",
+    "nx": "^19.8.3",
     "prismjs": "^1.29.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "typescript": "^5.6.2",
     "@eslint/eslintrc": "^3.1.0",
-    "@types/async-retry": "^1.4.8",
+    "@types/async-retry": "^1.4.9",
     "@types/katex": "^0.16.7",
     "@types/prismjs": "^1.26.4",
-    "@typescript-eslint/eslint-plugin": "^8.5.0",
-    "@typescript-eslint/parser": "^8.5.0",
-    "@typescript-eslint/typescript-estree": "^8.5.0",
+    "@typescript-eslint/eslint-plugin": "^8.8.0",
+    "@typescript-eslint/parser": "^8.8.0",
+    "@typescript-eslint/typescript-estree": "^8.8.0",
     "cli-progress": "^3.12.0",
-    "eslint": "9.10.0",
-    "eslint-plugin-astro": "^1.2.3"
+    "eslint": "^8.57.1",
+    "eslint-plugin-astro": "^1.2.4"
   },
   "pathMappings": {},
   "nxJsonPlugins": [],
@@ -82,11 +82,11 @@
         },
         {
           "file": ".yarn/install-state.gz",
-          "hash": "14231719971333849737"
+          "hash": "6421180248853890672"
         },
         {
           "file": ".yarnrc.yml",
-          "hash": "2886304410880062839"
+          "hash": "9773565372686775399"
         },
         {
           "file": "README.md",
@@ -98,7 +98,7 @@
         },
         {
           "file": "package.json",
-          "hash": "17339917123748290439",
+          "hash": "9307751504872626237",
           "deps": [
             "npm:@eslint/eslintrc",
             "npm:@types/async-retry",
@@ -196,7 +196,7 @@
         },
         {
           "file": "src/components/Header.astro",
-          "hash": "13750128236627011853"
+          "hash": "18383262695218839675"
         },
         {
           "file": "src/components/HeaderLink.astro",
@@ -216,11 +216,11 @@
         },
         {
           "file": "src/components/SearchButton.astro",
-          "hash": "5337251655938196776"
+          "hash": "1771916195860174891"
         },
         {
           "file": "src/components/SearchModal.astro",
-          "hash": "5851719687440771413"
+          "hash": "8598204923974470654"
         },
         {
           "file": "src/components/blog/Card.astro",
@@ -240,7 +240,7 @@
         },
         {
           "file": "src/components/blog/PostInfo.astro",
-          "hash": "10271858138621762964"
+          "hash": "15637828090535592985"
         },
         {
           "file": "src/components/blog/PostRelativeLink.astro",
@@ -248,11 +248,11 @@
         },
         {
           "file": "src/components/blog/PostTags.astro",
-          "hash": "13243443943441526428"
+          "hash": "17981751749574052244"
         },
         {
           "file": "src/components/blog/PostTitle.astro",
-          "hash": "6555529374471525429"
+          "hash": "4251733279259634049"
         },
         {
           "file": "src/components/notion-blocks/Bookmark.astro",
@@ -368,7 +368,7 @@
         },
         {
           "file": "src/env.d.ts",
-          "hash": "17221890221236011836"
+          "hash": "17606626773036793586"
         },
         {
           "file": "src/images/icon-arrow-link.svg",
@@ -396,7 +396,7 @@
         },
         {
           "file": "src/lib/notion/responses.ts",
-          "hash": "638594330667460383"
+          "hash": "845272624809679905"
         },
         {
           "file": "src/lib/style-helpers.ts",
@@ -420,11 +420,11 @@
         },
         {
           "file": "src/pages/posts/index.astro",
-          "hash": "14014383318455709976"
+          "hash": "17598318749354233986"
         },
         {
           "file": "src/pages/posts/tag/[slug].astro",
-          "hash": "3170299984661920048"
+          "hash": "18102746975567389017"
         },
         {
           "file": "src/server-constants.ts",
@@ -452,7 +452,7 @@
         },
         {
           "file": "yarn.lock",
-          "hash": "7899794853099901949"
+          "hash": "6259917808986611780"
         }
       ]
     },

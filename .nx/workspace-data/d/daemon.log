@@ -368,3 +368,14 @@ Error: Invalid Nx Cloud access token. Token: 66586cbfcd2db153653c806d
 [NX Daemon Server] - 2024-09-11T03:38:53.281Z - Closed a connection. Number of open connections: 0
 [NX Daemon Server] - 2024-09-11T03:38:53.281Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (sources)
 [NX Daemon Server] - 2024-09-11T03:38:53.281Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (outputs)
+[NX Daemon Server] - 2024-10-03T07:40:24.753Z - Started listening on: \\.\pipe\nx\C:\Users\MSI\AppData\Local\Temp\8d68c74aae15bf3a73a8\d.sock
+[NX Daemon Server] - 2024-10-03T07:40:24.768Z - [WATCHER]: Subscribed to changes within: F:\astro\bottom-ile (native)
+[NX Daemon Server] - 2024-10-03T07:40:24.770Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-10-03T07:40:24.771Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-10-03T07:40:24.772Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-10-03T07:40:24.774Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-10-03T07:40:24.775Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-10-03T07:40:24.775Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-10-03T07:40:24.775Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-10-03T07:40:24.775Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (sources)
+[NX Daemon Server] - 2024-10-03T07:40:24.776Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (outputs)
