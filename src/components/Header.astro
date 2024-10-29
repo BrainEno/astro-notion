@@ -12,7 +12,7 @@ const links = [
   { title: 'Home', href: '/' },
   { title: 'All', href: '/posts' },
   { title: 'Novel', href: '/posts/tag/novel' },
-  { title: 'Poem', href: '/posts/tag/poem' },
+  { title: 'Poetry', href: '/posts/tag/poem' },
   { title: 'Else', href: '/posts/tag/else' },
 ]
 
@@ -166,9 +166,9 @@ const { customIconURL, siteTitle } = Astro.props
     function toggleMenu() {
       if (screen.width > 700) return
       const menu = document.querySelector('.header-links') as HTMLDivElement
-      if (!menu.style.display||menu.style.display === 'none') {
+      if (!menu.style.display || menu.style.display === 'none') {
         menu.style.display = 'flex'
-      } else if(menu.style.display==='flex'){
+      } else if (menu.style.display === 'flex') {
         menu.style.display = 'none'
       }
     }

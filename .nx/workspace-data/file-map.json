@@ -1,48 +1,6 @@
 {
   "version": "6.0",
-  "nxVersion": "19.8.3",
-  "deps": {
-    "@astrojs/check": "^0.9.3",
-    "@astrojs/react": "^3.6.2",
-    "@astrojs/rss": "^4.0.7",
-    "@astrojs/ts-plugin": "^1.10.2",
-    "@iconify-json/hugeicons": "^1.2.0",
-    "@iconify-json/octicon": "^1.2.0",
-    "@notionhq/client": "^2.2.15",
-    "@nrwl/nx-cloud": "^19.1.0",
-    "@supercharge/promise-pool": "^3.2.0",
-    "@types/react": "^18.3.11",
-    "@types/react-dom": "^18.3.0",
-    "astro": "^4.15.10",
-    "astro-icon": "^1.1.1",
-    "async-retry": "^1.3.3",
-    "axios": "^1.7.7",
-    "dotenv": "^16.4.5",
-    "exif-be-gone": "^1.5.1",
-    "install": "^0.13.0",
-    "katex": "^0.16.11",
-    "mermaid": "^11.2.1",
-    "metascraper": "^5.45.23",
-    "metascraper-description": "^5.45.22",
-    "metascraper-image": "^5.45.22",
-    "metascraper-title": "^5.45.22",
-    "node-fetch": "^3.3.2",
-    "nx": "^19.8.3",
-    "prismjs": "^1.29.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "typescript": "^5.6.2",
-    "@eslint/eslintrc": "^3.1.0",
-    "@types/async-retry": "^1.4.9",
-    "@types/katex": "^0.16.7",
-    "@types/prismjs": "^1.26.4",
-    "@typescript-eslint/eslint-plugin": "^8.8.0",
-    "@typescript-eslint/parser": "^8.8.0",
-    "@typescript-eslint/typescript-estree": "^8.8.0",
-    "cli-progress": "^3.12.0",
-    "eslint": "^8.57.1",
-    "eslint-plugin-astro": "^1.2.4"
-  },
+  "nxVersion": "20.0.6",
   "pathMappings": {},
   "nxJsonPlugins": [],
   "fileMap": {
@@ -82,7 +40,7 @@
         },
         {
           "file": ".yarn/install-state.gz",
-          "hash": "6421180248853890672"
+          "hash": "7874960721591737428"
         },
         {
           "file": ".yarnrc.yml",
@@ -98,7 +56,7 @@
         },
         {
           "file": "package.json",
-          "hash": "9307751504872626237",
+          "hash": "8526039263832531954",
           "deps": [
             "npm:@eslint/eslintrc",
             "npm:@types/async-retry",
@@ -196,11 +154,11 @@
         },
         {
           "file": "src/components/Header.astro",
-          "hash": "18383262695218839675"
+          "hash": "16572791036213952026"
         },
         {
           "file": "src/components/HeaderLink.astro",
-          "hash": "10713409647353837302"
+          "hash": "13287200500548345511"
         },
         {
           "file": "src/components/NoContents.astro",
@@ -224,7 +182,7 @@
         },
         {
           "file": "src/components/blog/Card.astro",
-          "hash": "359981769490756263"
+          "hash": "150854034830129833"
         },
         {
           "file": "src/components/blog/PostBody.astro",
@@ -412,7 +370,7 @@
         },
         {
           "file": "src/pages/index.astro",
-          "hash": "5519080926218799062"
+          "hash": "15864575035210763086"
         },
         {
           "file": "src/pages/posts/[slug].astro",
@@ -452,7 +410,7 @@
         },
         {
           "file": "yarn.lock",
-          "hash": "6259917808986611780"
+          "hash": "3090775745590814584"
         }
       ]
     },
