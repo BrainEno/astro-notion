@@ -1,0 +1,151 @@
+.question-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+
+.overlay {
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(201, 184, 184, 0.5);
+}
+
+.overlay .auth-container {
+  position: fixed;
+  top: 40%;
+  left: calc(50% - 250px);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+  height: 280px;
+  background: white;
+  padding: 30px;
+  border-radius: 6px;
+}
+
+.auth-container label {
+  font-size: 21px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.auth-container input {
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  padding-left: 8px;
+  outline: none;
+}
+
+.auth-container button {
+  width: 120px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.input-container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.input-container h3 {
+  display: block;
+  width: max-content;
+  text-align: center;
+}
+
+.question-input {
+  display: flex;
+  flex-direction: row;
+  background-color: #ececec;
+  border-radius: 22.5px;
+  height: 50px;
+  width: 610px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 8px;
+}
+
+.question-input input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding-left: 12px;
+  font-size: 16px;
+  overflow-y: scroll;
+}
+
+.question-input button {
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 32px;
+  background-color: rgb(145, 145, 145);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+}
+
+.question-container button:hover {
+  background-color: black;
+}
+
+.question-input button svg {
+  color: white;
+  font-size: 19px;
+}
+
+.chat-box-container {
+  overflow-y: scroll;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 750px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.chat-box {
+  width: 60vw;
+  height: max-content;
+}
+
+.chat-question {
+  justify-self: flex-end;
+  width: 500px;
+  background-color: rgb(236, 231, 231);
+  padding: 12px;
+  border-radius: 12px;
+  margin: 30px;
+}
+
+.chat-answer {
+  width: 55vw;
+}

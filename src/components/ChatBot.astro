@@ -1,0 +1,26 @@
+<script>
+  import { initChat, sendMessage } from '../lib/chatbot-utils'
+
+  document.addEventListener('DOMContentLoaded', () => {
+    initChat()
+    document
+      .getElementById('chatForm')
+      ?.addEventListener('submit', async function (e) {
+        e.preventDefault()
+        await sendMessage()
+      })
+  })
+</script>
+
+<aside class="chat closed">
+  <header class="chat-header">
+    <h2>Chat with an AI</h2>
+  </header>
+  <ul id="messages">
+    <!--Here are the history of messages -->
+  </ul>
+  <form id="chatForm">
+    <input type="text" autocomplete="off" id="message" />
+    <button id="submitButton" type="submit">Send</button>
+  </form>
+</aside>

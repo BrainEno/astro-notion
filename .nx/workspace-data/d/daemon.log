@@ -412,3 +412,42 @@ Error: Invalid Nx Cloud access token. Token: 66586cbfcd2db153653c806d
 [NX Daemon Server] - 2024-10-28T03:47:09.314Z - Closed a connection. Number of open connections: 0
 [NX Daemon Server] - 2024-10-28T03:47:09.314Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (sources)
 [NX Daemon Server] - 2024-10-28T03:47:09.314Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (outputs)
+[NX Daemon Server] - 2024-11-14T04:34:30.064Z - Started listening on: \\.\pipe\nx\C:\Users\MSI\AppData\Local\Temp\8d68c74aae15bf3a73a8\d.sock
+[NX Daemon Server] - 2024-11-14T04:34:30.117Z - [WATCHER]: Subscribed to changes within: F:\astro\bottom-ile (native)
+[NX Daemon Server] - 2024-11-14T04:34:30.123Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-14T04:34:30.125Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-14T04:34:30.127Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-14T04:34:30.129Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-11-14T04:34:30.129Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-11-14T04:34:30.129Z - Handled FORCE_SHUTDOWN. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-14T04:34:30.130Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-14T04:34:30.131Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (sources)
+[NX Daemon Server] - 2024-11-14T04:34:30.131Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (outputs)
+[NX Daemon Server] - 2024-11-30T04:41:12.532Z - Started listening on: \\.\pipe\nx\C:\Users\MSI\AppData\Local\Temp\8d68c74aae15bf3a73a8\d.sock
+[NX Daemon Server] - 2024-11-30T04:41:12.707Z - [WATCHER]: Subscribed to changes within: F:\astro\bottom-ile (native)
+[NX Daemon Server] - 2024-11-30T04:41:12.714Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-30T04:41:12.715Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-30T04:41:12.718Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-30T04:41:12.720Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-11-30T04:41:12.721Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-11-30T04:41:12.721Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-11-30T04:41:12.721Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-30T04:41:12.722Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (sources)
+[NX Daemon Server] - 2024-11-30T04:41:12.722Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (outputs)
+[NX Daemon Server] - 2024-12-09T10:05:19.636Z - Started listening on: \\.\pipe\nx\C:\Users\MSI\AppData\Local\Temp\8d68c74aae15bf3a73a8\d.sock
+[NX Daemon Server] - 2024-12-09T10:05:19.655Z - [WATCHER]: Subscribed to changes within: F:\astro\bottom-ile (native)
+[NX Daemon Server] - 2024-12-09T10:05:19.658Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-09T10:05:19.659Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-09T10:05:19.661Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-09T10:05:19.664Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-12-09T10:05:19.666Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-12-09T10:05:19.666Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-12-09T10:05:19.667Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-12-09T10:05:19.667Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (sources)
+[NX Daemon Server] - 2024-12-09T10:05:19.668Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (outputs)
+
+> NX runtime error err=cannot send event from fs watcher: sending into a closed channel
+
+
+> NX runtime error err=cannot send event from fs watcher: sending into a closed channel
+

@@ -1,8 +1,12 @@
 import { defineConfig } from 'astro/config';
 import icon from 'astro-icon'
+// import cloudflare from "@astrojs/cloudflare"
+// import netlify from '@astrojs/netlify'
+import preact from "@astrojs/preact";
 
-import react from "@astrojs/react";
 import { CUSTOM_DOMAIN, BASE_PATH } from './src/server-constants';
+
+import cloudflare from '@astrojs/cloudflare';
 
 const getSite = function () {
   if (CUSTOM_DOMAIN) {
@@ -34,8 +38,22 @@ const getSite = function () {
 export default defineConfig({
   site: getSite(),
   base: BASE_PATH,
+
+  vite: {
+    ssr: {
+      noExternal: ['the-ract-library']
+    }
+  },
+
   integrations: [
     icon(),
-    react(),
+    preact({ compat: true, devtools: true, }),
   ],
+
+  output: 'server',
+  adapter: cloudflare({
+    platformProxy: {
+      enabled: true
+    }
+  }),
 });

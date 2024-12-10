@@ -15,3 +15,4 @@ export const REQUEST_TIMEOUT_MS = parseInt(
     10
 )
 export const ENABLE_LIGHTBOX = import.meta.env.ENABLE_LIGHTBOX
+

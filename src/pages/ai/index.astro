@@ -1,0 +1,21 @@
+---
+import AI from '../../components/AI'
+// import ChatBot from '../../components/ChatBot.astro'
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout path="/xai">
+  <div slot="main" class="main">
+    <AI client:visible />
+    <!-- <ChatBot /> -->
+  </div>
+</Layout>
+
+<style>
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+</style>
