@@ -1,6 +1,6 @@
 {
   "version": "6.0",
-  "nxVersion": "20.2.1",
+  "nxVersion": "20.2.2",
   "pathMappings": {},
   "nxJsonPlugins": [],
   "fileMap": {
@@ -40,7 +40,7 @@
         },
         {
           "file": ".yarn/install-state.gz",
-          "hash": "386112021852809076"
+          "hash": "6868477072749780094"
         },
         {
           "file": ".yarnrc.yml",
@@ -52,11 +52,11 @@
         },
         {
           "file": "astro.config.mjs",
-          "hash": "11522608650286783253"
+          "hash": "13940394823632351970"
         },
         {
           "file": "package.json",
-          "hash": "12335932029404985663",
+          "hash": "16343298920942185502",
           "deps": [
             "npm:@eslint/eslintrc",
             "npm:@types/async-retry",
@@ -155,7 +155,7 @@
         },
         {
           "file": "src/components/AI.tsx",
-          "hash": "12639562419981171706"
+          "hash": "14896975734531012051"
         },
         {
           "file": "src/components/ChatBot.astro",
@@ -163,7 +163,7 @@
         },
         {
           "file": "src/components/ChatBox.tsx",
-          "hash": "4315244469885011381"
+          "hash": "1626857172887015794"
         },
         {
           "file": "src/components/CopyButton.tsx",
@@ -287,7 +287,7 @@
         },
         {
           "file": "src/components/notion-blocks/Mention.astro",
-          "hash": "12214087107057968002"
+          "hash": "7650459051757219517"
         },
         {
           "file": "src/components/notion-blocks/Paragraph.astro",
@@ -363,7 +363,7 @@
         },
         {
           "file": "src/lib/chatbot-utils.ts",
-          "hash": "1757177821029417656"
+          "hash": "7115587619945468488"
         },
         {
           "file": "src/lib/interfaces.ts",
@@ -391,11 +391,11 @@
         },
         {
           "file": "src/pages/ai/index.astro",
-          "hash": "16497050142034603445"
+          "hash": "892856175084536417"
         },
         {
           "file": "src/pages/api/chatbot.ts",
-          "hash": "11370163324947142935"
+          "hash": "3699692772726227215"
         },
         {
           "file": "src/pages/feed.ts",
@@ -407,7 +407,7 @@
         },
         {
           "file": "src/pages/posts/[slug].astro",
-          "hash": "11569699724343919919"
+          "hash": "7699385750099103526"
         },
         {
           "file": "src/pages/posts/index.astro",
@@ -415,7 +415,7 @@
         },
         {
           "file": "src/pages/posts/tag/[slug].astro",
-          "hash": "8786138389664830446"
+          "hash": "18421884580024233014"
         },
         {
           "file": "src/server-constants.ts",
@@ -451,7 +451,7 @@
         },
         {
           "file": "yarn.lock",
-          "hash": "15240009616564407405"
+          "hash": "7821796965667361870"
         }
       ]
     },

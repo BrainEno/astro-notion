@@ -451,3 +451,14 @@ Error: Invalid Nx Cloud access token. Token: 66586cbfcd2db153653c806d
 
 > NX runtime error err=cannot send event from fs watcher: sending into a closed channel
 
+[NX Daemon Server] - 2024-12-12T06:41:49.221Z - Started listening on: \\.\pipe\nx\C:\Users\MSI\AppData\Local\Temp\8d68c74aae15bf3a73a8\d.sock
+[NX Daemon Server] - 2024-12-12T06:41:49.261Z - [WATCHER]: Subscribed to changes within: F:\astro\bottom-ile (native)
+[NX Daemon Server] - 2024-12-12T06:41:49.264Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-12T06:41:49.264Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-12T06:41:49.267Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-12T06:41:49.270Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-12-12T06:41:49.272Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-12-12T06:41:49.272Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-12-12T06:41:49.272Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-12-12T06:41:49.273Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (sources)
+[NX Daemon Server] - 2024-12-12T06:41:49.274Z - [WATCHER]: Stopping the watcher for F:\astro\bottom-ile (outputs)

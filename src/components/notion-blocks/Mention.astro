@@ -20,7 +20,7 @@ if (pageId) {
 {
   post ? (
     <a href={getPostLink(post.Slug)} class="link">
-      <>
+      <fragment>
         <span class="icon">
           {post.Icon && post.Icon.Type === 'emoji' ? (
             (post.Icon as Emoji).Emoji
@@ -40,7 +40,7 @@ if (pageId) {
           />
         </span>
         <span class="text">{post.Title}</span>
-      </>
+      </fragment>
     </a>
   ) : (
     <a class="link">

@@ -3,7 +3,6 @@ import { pipeline } from 'node:stream/promises'
 import axios, { type AxiosResponse } from 'axios'
 // import sharp from 'sharp'
 import retry from 'async-retry'
-import ExifTransformer from 'exif-be-gone'
 import {
     NOTION_API_SECRET,
     DATABASE_ID,
@@ -379,6 +378,7 @@ export async function getAllTags(): Promise<SelectProperty[]> {
 }
 
 export async function downloadFile(url: URL) {
+    const { default: ExifTransformer } = await import('exif-be-gone')
     let res!: AxiosResponse
     try {
         res = await axios({

@@ -41,8 +41,17 @@ export default defineConfig({
 
   vite: {
     ssr: {
-      noExternal: ['the-ract-library']
-    }
+      noExternal: ['the-ract-library'],
+      external: ['node:fs',
+        'node:stream/promises',
+        'exif-be-gone',
+        'stream',
+        '@metascraper/helpers',
+        'metascraper',
+        'node:stream',
+        'url'
+      ]
+    },
   },
 
   integrations: [
@@ -52,8 +61,11 @@ export default defineConfig({
 
   output: 'server',
   adapter: cloudflare({
+    imageService: "cloudflare",
     platformProxy: {
-      enabled: true
+      enabled: true,
+      experimentalRegistry: true,
+      persist: './.cache/wranger/v3'
     }
   }),
 });
