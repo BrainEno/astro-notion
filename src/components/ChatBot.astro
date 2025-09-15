@@ -1,5 +1,14 @@
+---
+import './chatbox.css'
+import 'astro-icon'
+---
+
 <script>
-  import { initChat, sendMessage } from '../lib/chatbot-utils'
+  import {
+    initChat,
+    sendMessage,
+    createNewConversation,
+  } from '../lib/chatbot-utils'
 
   document.addEventListener('DOMContentLoaded', () => {
     initChat()
@@ -9,18 +18,31 @@
         e.preventDefault()
         await sendMessage()
       })
+    document
+      .getElementById('new-conversation')
+      ?.addEventListener('click', function () {
+        createNewConversation()
+      })
   })
 </script>
 
-<aside class="chat closed">
-  <header class="chat-header">
-    <h2>Chat with an AI</h2>
-  </header>
-  <ul id="messages">
-    <!--Here are the history of messages -->
-  </ul>
-  <form id="chatForm">
-    <input type="text" autocomplete="off" id="message" />
-    <button id="submitButton" type="submit">Send</button>
-  </form>
-</aside>
+<div class="chat-container">
+  <nav class="sidebar">
+    <ul id="conversation-list">
+      <!-- Conversation history will be populated here -->
+    </ul>
+    <button id="new-conversation">New Conversation</button>
+  </nav>
+  <aside class="chat closed">
+    <header class="chat-header">
+      <h2>有什么可以帮忙的？</h2>
+    </header>
+    <ul id="messages">
+      <!-- Current conversation messages -->
+    </ul>
+    <form id="chatForm">
+      <input type="text" autocomplete="off" id="message" />
+      <button id="submitButton" type="submit">Send</button>
+    </form>
+  </aside>
+</div>

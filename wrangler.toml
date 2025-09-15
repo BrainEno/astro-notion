@@ -1,2 +1,7 @@
+name = "bottom-think"
+pages_build_output_dir = "./dist"
+compatibility_date = "2024-12-30"
+compatibility_flags = ["nodejs_compat"]
+
 [ai]
-binding="AI"
+binding = "AI"

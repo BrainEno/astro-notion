@@ -1,0 +1,264 @@
+/* Chat container */
+.chat-container {
+  display: flex;
+  height: 80vh;
+  width: 70vw;
+  max-width: 1700px;
+  margin: 0 auto;
+  background-color: #1a1a1a;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 300px;
+  background-color: #2a2a2a;
+  border-right: 1px solid #333;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  position: relative;
+  padding: 12px 40px 12px 15px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  color: #fff;
+}
+
+.sidebar li:hover {
+  background-color: #333;
+}
+
+.sidebar li.active {
+  background-color: #3a3a3a;
+  color: #fff;
+}
+
+#new-conversation {
+  width: 100%;
+  padding: 12px;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+#new-conversation:hover {
+  background-color: #555;
+}
+
+/* Chat area */
+.chat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Chat header */
+.chat-header {
+  padding: 15px 20px;
+  background-color: #1a1a1a;
+  font-size: 1.1em;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+}
+
+/* Messages list */
+#messages {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #1a1a1a;
+}
+
+/* Message items */
+#messages li {
+  position: relative;
+  max-width: 75%;
+  padding: 12px 40px 12px 18px;
+  border-radius: 12px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+#messages li.user {
+  background-color: #004080;
+  color: #fff;
+  align-self: flex-end;
+}
+
+#messages li.bot {
+  background-color: #333;
+  color: #fff;
+  align-self: flex-start;
+}
+
+/* Message header */
+#messages li header {
+  font-size: 0.85em;
+  opacity: 0.7;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#messages li.user header {
+  color: #cce0ff;
+}
+
+/* Message text */
+#messages li .text {
+  font-size: 1em;
+}
+
+/* Input form */
+#chatForm {
+  display: flex;
+  padding: 15px 20px;
+  background-color: #1a1a1a;
+  border-top: 1px solid #333;
+  position: sticky;
+  bottom: 0;
+}
+
+#message {
+  flex: 1;
+  padding: 12px;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 8px;
+  font-size: 1em;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+#message:focus {
+  border-color: #0066ff;
+}
+
+#submitButton {
+  margin-left: 10px;
+  padding: 12px 24px;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#submitButton:hover {
+  background-color: #555;
+}
+
+/* Typing indicator */
+.loader {
+  display: inline-block;
+  font-size: 1.2em;
+  color: #ccc;
+  animation: typing 1.2s infinite;
+}
+
+@keyframes typing {
+  0% {
+    content: '.';
+    opacity: 0.3;
+  }
+  33% {
+    content: '..';
+    opacity: 0.6;
+  }
+  66% {
+    content: '...';
+    opacity: 1;
+  }
+  100% {
+    content: '.';
+    opacity: 0.3;
+  }
+}
+
+/* Delete conversation button */
+.delete-conversation {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #888;
+}
+
+.delete-conversation:hover {
+  color: #ff4d4d;
+}
+
+/* Copy message button */
+.copy-message {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  color: #888;
+}
+
+.copy-message:hover {
+  color: #fff;
+}
+
+/* Scrollbar styles */
+#messages::-webkit-scrollbar,
+.sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+
+#messages::-webkit-scrollbar-track,
+.sidebar::-webkit-scrollbar-track {
+  background: #2a2a2a;
+}
+
+#messages::-webkit-scrollbar-thumb,
+.sidebar::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 4px;
+}
+
+#messages::-webkit-scrollbar-thumb:hover,
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
+
+#messages li {
+  position: relative;
+  padding: 12px 40px 12px 18px; /* Space for copy button */
+}
+
+.copy-message {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  color: #888;
+}
+
+.copy-message:hover {
+  color: #fff; /* White on hover for contrast */
+}

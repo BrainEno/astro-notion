@@ -1,0 +1,104 @@
+{
+  ".": {
+    "root": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "includedScripts": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets._fetch-notion-blocks": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets._fetch-notion-blocks.executor": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets._fetch-notion-blocks.metadata": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets._fetch-notion-blocks.inputs": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets._fetch-notion-blocks.outputs": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets._fetch-notion-blocks.options": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets._fetch-notion-blocks.options.script": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets._fetch-notion-blocks.metadata.scriptContent": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets._fetch-notion-blocks.metadata.runCommand": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "package.json",
+      "nx/core/package-json"
+    ]
+  }
+}

@@ -82,6 +82,8 @@ let ogImage
 if (post.FeaturedImage && post.FeaturedImage.Url) {
   ogImage = new URL(filePath(new URL(post.FeaturedImage.Url)), Astro.site)
 }
+
+export const prerender = true
 ---
 
 <Layout
@@ -123,5 +125,3 @@ if (post.FeaturedImage && post.FeaturedImage.Url) {
     }
   }
 </style>
-
-export const prerender = true

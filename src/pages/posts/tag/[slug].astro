@@ -19,6 +19,8 @@ export async function getStaticPaths() {
 const slug = Astro.params.slug as keyof typeof tags
 
 const posts = await getPostsByTag(tags[slug])
+
+export const prerender = true
 ---
 
 <Layout description="All Posts" path="/">
@@ -45,5 +47,3 @@ const posts = await getPostsByTag(tags[slug])
     }
   }
 </style>
-
-export const prerender = true

@@ -1,7 +1,6 @@
 import { defineConfig } from 'astro/config';
 import icon from 'astro-icon'
-// import cloudflare from "@astrojs/cloudflare"
-// import netlify from '@astrojs/netlify'
+import cloudflare from "@astrojs/cloudflare"
 import preact from "@astrojs/preact";
 
 import { CUSTOM_DOMAIN, BASE_PATH } from './src/server-constants';
@@ -38,8 +37,10 @@ const getSite = function () {
 export default defineConfig({
   site: getSite(),
   base: BASE_PATH,
-
   vite: {
+    build: {
+      minify: false
+    },
     ssr: {
       noExternal: ['the-ract-library'],
       external: ['node:fs',
@@ -48,24 +49,20 @@ export default defineConfig({
         'stream',
         '@metascraper/helpers',
         'metascraper',
-        'node:stream',
         'url'
       ]
     },
   },
-
   integrations: [
     icon(),
     preact({ compat: true, devtools: true, }),
   ],
-
   output: 'server',
   adapter: cloudflare({
     imageService: "cloudflare",
     platformProxy: {
       enabled: true,
       experimentalRegistry: true,
-      persist: './.cache/wranger/v3'
     }
   }),
 });

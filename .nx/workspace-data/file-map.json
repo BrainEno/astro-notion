@@ -1,6 +1,6 @@
 {
   "version": "6.0",
-  "nxVersion": "20.2.2",
+  "nxVersion": "20.8.2",
   "pathMappings": {},
   "nxJsonPlugins": [],
   "fileMap": {
@@ -40,11 +40,11 @@
         },
         {
           "file": ".yarn/install-state.gz",
-          "hash": "6868477072749780094"
+          "hash": "8145620956645697729"
         },
         {
           "file": ".yarnrc.yml",
-          "hash": "9773565372686775399"
+          "hash": "6451115167948358771"
         },
         {
           "file": "README.md",
@@ -52,12 +52,13 @@
         },
         {
           "file": "astro.config.mjs",
-          "hash": "13940394823632351970"
+          "hash": "13607196150730916996"
         },
         {
           "file": "package.json",
-          "hash": "16343298920942185502",
+          "hash": "12382272750110229609",
           "deps": [
+            "npm:@cloudflare/workers-types",
             "npm:@eslint/eslintrc",
             "npm:@types/async-retry",
             "npm:@types/katex",
@@ -83,6 +84,7 @@
             "npm:astro-icon",
             "npm:async-retry",
             "npm:axios",
+            "npm:cross-fetch",
             "npm:dotenv",
             "npm:exif-be-gone",
             "npm:install",
@@ -93,7 +95,6 @@
             "npm:metascraper-description",
             "npm:metascraper-image",
             "npm:metascraper-title",
-            "npm:node-fetch",
             "npm:nx",
             "npm:preact",
             "npm:prismjs",
@@ -154,12 +155,8 @@
           "hash": "9455084709501518042"
         },
         {
-          "file": "src/components/AI.tsx",
-          "hash": "14896975734531012051"
-        },
-        {
           "file": "src/components/ChatBot.astro",
-          "hash": "12928614322050023176"
+          "hash": "4604689559006903432"
         },
         {
           "file": "src/components/ChatBox.tsx",
@@ -232,6 +229,10 @@
         {
           "file": "src/components/blog/PostTitle.astro",
           "hash": "4251733279259634049"
+        },
+        {
+          "file": "src/components/chatbox.css",
+          "hash": "7221213860623686106"
         },
         {
           "file": "src/components/notion-blocks/Bookmark.astro",
@@ -359,11 +360,11 @@
         },
         {
           "file": "src/lib/blog-helpers.ts",
-          "hash": "7837727222873406586"
+          "hash": "16579079424464708806"
         },
         {
           "file": "src/lib/chatbot-utils.ts",
-          "hash": "7115587619945468488"
+          "hash": "4395535996212681707"
         },
         {
           "file": "src/lib/interfaces.ts",
@@ -371,7 +372,7 @@
         },
         {
           "file": "src/lib/notion/client.ts",
-          "hash": "1319018237946496259"
+          "hash": "15743522253274375811"
         },
         {
           "file": "src/lib/notion/request-params.ts",
@@ -391,11 +392,11 @@
         },
         {
           "file": "src/pages/ai/index.astro",
-          "hash": "892856175084536417"
+          "hash": "8033516844438571378"
         },
         {
           "file": "src/pages/api/chatbot.ts",
-          "hash": "3699692772726227215"
+          "hash": "14937510692833640410"
         },
         {
           "file": "src/pages/feed.ts",
@@ -407,7 +408,7 @@
         },
         {
           "file": "src/pages/posts/[slug].astro",
-          "hash": "7699385750099103526"
+          "hash": "11976707200252177412"
         },
         {
           "file": "src/pages/posts/index.astro",
@@ -415,7 +416,7 @@
         },
         {
           "file": "src/pages/posts/tag/[slug].astro",
-          "hash": "18421884580024233014"
+          "hash": "4685049475634036522"
         },
         {
           "file": "src/server-constants.ts",
@@ -439,7 +440,7 @@
         },
         {
           "file": "tsconfig.json",
-          "hash": "17627709797124510739"
+          "hash": "18347863573306094854"
         },
         {
           "file": "worker-configuration.d.ts",
@@ -447,11 +448,11 @@
         },
         {
           "file": "wrangler.toml",
-          "hash": "12636869929574748574"
+          "hash": "14924661396932343891"
         },
         {
           "file": "yarn.lock",
-          "hash": "7821796965667361870"
+          "hash": "17141781159323185461"
         }
       ]
     },
